@@ -253,11 +253,11 @@
  	 	 	},
  	 	 	"upgradeVaultModal": {
  	 	 	 	"title": {
- 	 	 	 	 	"trans": "Uaktualnij sklepienie",
+ 	 	 	 	 	"trans": "Ulepsz Skarbiec",
  	 	 	 	 	"eng": "Upgrade Vault"
  	 	 	 	},
  	 	 	 	"confirm": {
- 	 	 	 	 	"trans": "Aktualizacja",
+ 	 	 	 	 	"trans": "Ulepsz",
  	 	 	 	 	"eng": "Upgrade"
  	 	 	 	}
  	 	 	},
@@ -270,13 +270,13 @@
  	 	 	"attackButton": {
  	 	 	 	"primary": {
  	 	 	 	 	"title": {
- 	 	 	 	 	 	"trans": "Podstawowy",
+ 	 	 	 	 	 	"trans": "Podstawowa",
  	 	 	 	 	 	"eng": "primary"
  	 	 	 	 	}
  	 	 	 	},
  	 	 	 	"secondary": {
  	 	 	 	 	"title": {
- 	 	 	 	 	 	"trans": "Specjalny",
+ 	 	 	 	 	 	"trans": "Specjalna",
  	 	 	 	 	 	"eng": "special"
  	 	 	 	 	}
  	 	 	 	},
@@ -294,7 +294,7 @@
  	 	 	 	"eng": "You found an old locked safe box, there seems like a post-it with some text written on it."
  	 	 	},
  	 	 	"title": {
- 	 	 	 	"trans": "Kod PIN wymagany do odblokowania",
+ 	 	 	 	"trans": "Kod PIN jest wymagany w celu odblokowania",
  	 	 	 	"eng": "Pin code required to unlock"
  	 	 	},
  	 	 	"inputLabel": {
@@ -308,18 +308,18 @@
  	 	},
  	 	"chat": {
  	 	 	"reconnecting": {
- 	 	 	 	"trans": "Ponawianie połączenia",
+ 	 	 	 	"trans": "Stablizowanie połączenia",
  	 	 	 	"eng": "Reestablishing connection"
  	 	 	},
  	 	 	"notAtBottom": {
- 	 	 	 	"trans": "Patrzysz na stare wiadomości",
+ 	 	 	 	"trans": "Patrzysz na starsze wiadomości",
  	 	 	 	"eng": "You are looking at old messages"
  	 	 	},
  	 	 	"replyTo": {
  	 	 	 	"vars": [
  	 	 	 	 	"playerName"
  	 	 	 	],
- 	 	 	 	"trans": "Odpowiadanie na ${playerName}",
+ 	 	 	 	"trans": "Odpowiadanie dla ${playerName}",
  	 	 	 	"eng": "Replying to ${playerName}"
  	 	 	},
  	 	 	"linksNotAllowed": {
@@ -342,7 +342,7 @@
  	 	 	 	"vars": [
  	 	 	 	 	"minLevel"
  	 	 	 	],
- 	 	 	 	"trans": "Musisz mieć co najmniej ${minLevel} poziom, aby wysłać wiadomości na czacie",
+ 	 	 	 	"trans": "Musisz mieć co najmniej ${minLevel} poziom, aby móc wysłać wiadomości na czacie",
  	 	 	 	"eng": "You need to be at least level ${minLevel} to send chat messages"
  	 	 	},
  	 	 	"chat": {
@@ -368,7 +368,7 @@
  	 	 	 	 	"vars": [
  	 	 	 	 	 	"vpnName"
  	 	 	 	 	],
- 	 	 	 	 	"trans": "Exploit czatu obowiązuje, wszystkie wysłane wiadomości zostaną zmienione. Użyj ${vpnName}, aby zabezpieczyć swoje połączenie!",
+ 	 	 	 	 	"trans": "Exploit czatu jest aktywny, wszystkie wysłane wiadomości zostaną zmienione. Użyj ${vpnName}, aby zabezpieczyć swoje połączenie!",
  	 	 	 	 	"eng": "Chat exploit is in effect, all message sent will be altered. use ${vpnName} to secure your connection!"
  	 	 	 	},
  	 	 	 	"activateVPN": {
@@ -381,7 +381,7 @@
  	 	 	 	 	"vars": [
  	 	 	 	 	 	"name"
  	 	 	 	 	],
- 	 	 	 	 	"trans": "${name} ma się skończyć w ciągu kilku sekund!",
+ 	 	 	 	 	"trans": "${name} skończy się w ciągu kilku sekund!",
  	 	 	 	 	"eng": "${name} is about to run out in a few seconds!"
  	 	 	 	},
  	 	 	 	"refresh": {
@@ -406,7 +406,7 @@
  	 	 	 	 	"vars": [
  	 	 	 	 	 	"cost"
  	 	 	 	 	],
- 	 	 	 	 	"trans": "Czat gangów będzie włączony, gdy należysz do gangu.\nDołącz do gangu, zaprzyjaźniając się na globalnym czacie lub tworząc własny gang i zapraszając znajomych!",
+ 	 	 	 	 	"trans": "Czat gangu jest dostępny, gdy przynależysz do gangu.\nDołącz do gangu, zaprzyjaźniając się na globalnym czacie lub tworząc własny gang i zapraszając znajomych!",
  	 	 	 	 	"eng": "gang chat will be enabled when you belong to a gang.\\njoin a gang by making friends in global chat or create your own gang and invite your friends!"
  	 	 	 	},
  	 	 	 	"createButton": {
@@ -418,14 +418,14 @@
  	 	 	 	 	 	"cost",
  	 	 	 	 	 	"currency"
  	 	 	 	 	],
- 	 	 	 	 	"trans": "Utwórz gang za ${cost} ${currency}",
+ 	 	 	 	 	"trans": "Utwórz Gang za ${cost} ${currency}",
  	 	 	 	 	"eng": "Create a gang for ${cost} ${currency}"
  	 	 	 	}
  	 	 	}
  	 	},
  	 	"deathScreen": {
  	 	 	"topTitleLeft": {
- 	 	 	 	"trans": "Śmiertelne Obrażenia",
+ 	 	 	 	"trans": "Odniosłeś Śmiertelne Obrażenia",
  	 	 	 	"eng": "fatal injury"
  	 	 	},
  	 	 	"topTitleRight": {
@@ -433,7 +433,7 @@
  	 	 	 	"eng": "SL Medical Center"
  	 	 	},
  	 	 	"title": {
- 	 	 	 	"trans": "Pokonany",
+ 	 	 	 	"trans": "Zneutralizowany",
  	 	 	 	"eng": "Flatlined"
  	 	 	},
  	 	 	"subTitleSmall": {
@@ -441,13 +441,13 @@
  	 	 	 	"eng": "Critical Error: Neural Link Disconnected"
  	 	 	},
  	 	 	"progressBarTitle": {
- 	 	 	 	"trans": "Ponowne ustanawianie połączenia",
+ 	 	 	 	"trans": "Przywracanie połączenia",
  	 	 	 	"eng": "Re-establishing connection"
  	 	 	}
  	 	},
  	 	"equipmentDisplay": {
  	 	 	"empty": {
- 	 	 	 	"trans": "Pusty",
+ 	 	 	 	"trans": "Pusto",
  	 	 	 	"eng": "Empty"
  	 	 	}
  	 	},
@@ -484,7 +484,7 @@
  	 	 	},
  	 	 	"bindModal": {
  	 	 	 	"title": {
- 	 	 	 	 	"trans": "Wybierz nadający się do użytku przedmiot do dodania do podręcznego slotu",
+ 	 	 	 	 	"trans": "Wybierz przedmiot, aby przypisać go do podręcznego slotu",
  	 	 	 	 	"eng": "Select a usable item to bind to a quick slot"
  	 	 	 	}
  	 	 	}
@@ -507,7 +507,7 @@
  	 	 	 	"eng": "Premium Shop"
  	 	 	},
  	 	 	"friendList": {
- 	 	 	 	"trans": "Lista Przyjaciół",
+ 	 	 	 	"trans": "Lista Znajomych",
  	 	 	 	"eng": "Friend List"
  	 	 	},
  	 	 	"leaderBoard": {
@@ -574,7 +574,7 @@
  	 	 	 	 	"vars": [
  	 	 	 	 	 	"skippingPlayerCount"
  	 	 	 	 	],
- 	 	 	 	 	"trans": "Przyspieszenie ${skippingPlayerCount} użytkowników..",
+ 	 	 	 	 	"trans": "Przyspieszenie ${skippingPlayerCount} graczy..",
  	 	 	 	 	"eng": "Accelerating ${skippingPlayerCount} users.."
  	 	 	 	}
  	 	 	},
@@ -585,7 +585,7 @@
  	 	},
  	 	"list": {
  	 	 	"longPressToMultiSelect": {
- 	 	 	 	"trans": "Przytrzymaj, aby wybrać wiele przedmiotów",
+ 	 	 	 	"trans": "Przytrzymaj, aby wybrać kilka przedmiotów",
  	 	 	 	"eng": "Long press to multi-select"
  	 	 	}
  	 	},
@@ -642,7 +642,7 @@
  	 	 	 	 	"eng": "Malfunctioned"
  	 	 	 	},
  	 	 	 	"instruction": {
- 	 	 	 	 	"trans": "Ten przedmiot jest uszkodzony; zanieś go do Rusznikarza aby naprawić",
+ 	 	 	 	 	"trans": "Ten przedmiot jest uszkodzony, zanieś go do Rusznikarza aby naprawić",
  	 	 	 	 	"eng": "This item is broken, bring it to Weapon Smith for repair"
  	 	 	 	}
  	 	 	},
@@ -657,17 +657,17 @@
  	 	 	 	 	 	"eng": "Unlock item?"
  	 	 	 	 	},
  	 	 	 	 	"description": {
- 	 	 	 	 	 	"trans": "Po odblokowaniu przedmiotu możesz go wymienić lub złomować.",
+ 	 	 	 	 	 	"trans": "Po zablokowaniu przedmiotu możesz go wymienić lub zezłomować.",
  	 	 	 	 	 	"eng": "When item is unlocked, you can trade or scrap it."
  	 	 	 	 	}
  	 	 	 	},
  	 	 	 	"lock": {
  	 	 	 	 	"title": {
- 	 	 	 	 	 	"trans": "Pozycja blokady?",
+ 	 	 	 	 	 	"trans": "Zabezpieczyć ten przedmiot?",
  	 	 	 	 	 	"eng": "Lock item?"
  	 	 	 	 	},
  	 	 	 	 	"description": {
- 	 	 	 	 	 	"trans": "Możesz zapobiec przypadkowemu skrobaniu lub sprzedaży tego przedmiotu, blokując go.",
+ 	 	 	 	 	 	"trans": "Możesz zapobiec przypadkowemu złomowaniu lub sprzedaży tego przedmiotu, blokując go.",
  	 	 	 	 	 	"eng": "You can prevent accidentally scraping or selling this item by locking it."
  	 	 	 	 	}
  	 	 	 	}
@@ -715,15 +715,15 @@
  	 	 	 	"eng": "Print Cache"
  	 	 	},
  	 	 	"printCacheDescription": {
- 	 	 	 	"trans": "Zmień ten Plan w element broni lub sprzętu, który można użyć.",
+ 	 	 	 	"trans": "Zmień ten Plan w Broń lub Sprzęt, który można użyć.",
  	 	 	 	"eng": "Turn this cache into a weapon or equipment item that you can use."
  	 	 	},
  	 	 	"openContainer": {
- 	 	 	 	"trans": "Odblokuj kontener",
+ 	 	 	 	"trans": "Odblokuj Pojemnik",
  	 	 	 	"eng": "Unlock Container"
  	 	 	},
  	 	 	"cantOpenContainerNotIdleV2": {
- 	 	 	 	"trans": "Nie możesz odblokować pojemników, gdy teraz",
+ 	 	 	 	"trans": "Nie możesz Odblokowywać Pojemników w tym momencie",
  	 	 	 	"eng": "You cannot unlock containers right now"
  	 	 	},
  	 	 	"openRedEnvelop": {
@@ -734,7 +734,7 @@
  	 	 	 	"vars": [
  	 	 	 	 	"itemName"
  	 	 	 	],
- 	 	 	 	"trans": "Nie możesz teraz otworzyć ${itemName}",
+ 	 	 	 	"trans": "W tej chwili nie możesz otworzyć ${itemName}",
  	 	 	 	"eng": "You cannot open ${itemName} right now"
  	 	 	}
  	 	},
@@ -752,11 +752,11 @@
  	 	 	"factoryReset": {
  	 	 	 	"confirmation": {
  	 	 	 	 	"title": {
- 	 	 	 	 	 	"trans": "Czy na pewno chcesz zresetować fabrycznie?",
+ 	 	 	 	 	 	"trans": "Czy na pewno chcesz zresetować kalibrację?",
  	 	 	 	 	 	"eng": "Are you sure you want to factory reset?"
  	 	 	 	 	},
  	 	 	 	 	"description": {
- 	 	 	 	 	 	"trans": "Zresetując ten przedmiot, stracisz całą kalibrację, jednak będziesz mógł wymienić go innym graczom.",
+ 	 	 	 	 	 	"trans": "Resetując ten przedmiot, stracisz wykonaną kalibrację, natomiast będziesz mógł wymienić go innym graczom.",
  	 	 	 	 	 	"eng": "By resetting this item, you will lose all calibration, however you will be able to trade it to other players."
  	 	 	 	 	}
  	 	 	 	},
@@ -769,7 +769,7 @@
  	 	 	 	 	"eng": "You no longer have this item"
  	 	 	 	},
  	 	 	 	"description": {
- 	 	 	 	 	"trans": "Naciśnij powrót, aby wrócić do zapasów",
+ 	 	 	 	 	"trans": "Naciśnij powrót, aby wrócić do okna Ekwipunku",
  	 	 	 	 	"eng": "press back to go back to inventory"
  	 	 	 	}
  	 	 	}
@@ -784,7 +784,7 @@
  	 	 	 	"eng": "You don't have any secret keys"
  	 	 	},
  	 	 	"noKeysSubtitle": {
- 	 	 	 	"trans": "Możesz zdobyć tajne klucze w Lochach",
+ 	 	 	 	"trans": "Możesz zdobyć Tajne Klucze w Lochach",
  	 	 	 	"eng": "You can obtain secret keys from Dungeons"
  	 	 	}
  	 	},
@@ -796,13 +796,13 @@
  	 	},
  	 	"notificationCenter": {
  	 	 	"deleteTip": {
- 	 	 	 	"trans": "Długie naciśnięcie, aby usunąć",
+ 	 	 	 	"trans": "Przytrzymaj, aby usunąć",
  	 	 	 	"eng": "Long press to delete"
  	 	 	}
  	 	},
  	 	"map": {
  	 	 	"interactable": {
- 	 	 	 	"trans": "Interaktywny",
+ 	 	 	 	"trans": "Interakcje",
  	 	 	 	"eng": "Interactable"
  	 	 	},
  	 	 	"hiddenNpcTip": {
@@ -823,7 +823,7 @@
  	 	},
  	 	"npc": {
  	 	 	"notUnlocked": {
- 	 	 	 	"trans": "To nie jest jeszcze odblokowane; spróbuj na wyższym poziomie",
+ 	 	 	 	"trans": "To nie jest jeszcze odblokowane, spróbuj na wyższym poziomie",
  	 	 	 	"eng": "This is not unlocked yet, try leveling up your character"
  	 	 	},
  	 	 	"repairItems": {
@@ -834,12 +834,12 @@
  	 	 	 	"eng": " Repair all items for (${repairFee} Bitcoin)"
  	 	 	},
  	 	 	"notAvailable": {
- 	 	 	 	"trans": "Ta NPC jest obecnie niedostępna",
+ 	 	 	 	"trans": "Ten NPC obecnie jest zajęty czymś innym",
  	 	 	 	"eng": "This NPC is currently not available"
  	 	 	},
  	 	 	"unlockContainerButton": {
  	 	 	 	"title": {
- 	 	 	 	 	"trans": "Odblokuj kontener",
+ 	 	 	 	 	"trans": "Odblokuj Pojemnik",
  	 	 	 	 	"eng": "Unlock Container"
  	 	 	 	}
  	 	 	},
@@ -849,11 +849,11 @@
  	 	 	 	 	 	"vars": [
  	 	 	 	 	 	 	"level"
  	 	 	 	 	 	],
- 	 	 	 	 	 	"trans": "Poziom drukowania ${level} Urządzenia",
+ 	 	 	 	 	 	"trans": "wydruk sprzętu wynosi ${level} poziom",
  	 	 	 	 	 	"eng": "printing level ${level} equipments"
  	 	 	 	 	},
  	 	 	 	 	"description": {
- 	 	 	 	 	 	"trans": "Drukowanie sprzętu jest oparte na poziomie drukowania, podnieś swój poziom drukowania, drukując więcej przedmiotów",
+ 	 	 	 	 	 	"trans": "Drukowanie sprzętu jest oparte na poziomie drukowania, możesz zwiększyć ten poziom, drukując więcej przedmiotów",
  	 	 	 	 	 	"eng": "equipment printing is based on your printing rank, level up your printing rank by printing more items"
  	 	 	 	 	}
  	 	 	 	}
@@ -912,22 +912,22 @@
  	 	 	 	"eng": "Bio"
  	 	 	},
  	 	 	"bioNotFound": {
- 	 	 	 	"trans": "REDAGOWANO",
+ 	 	 	 	"trans": "ZACENZUROWANE",
  	 	 	 	"eng": "REDACTED"
  	 	 	},
  	 	 	"decoration1": {
- 	 	 	 	"trans": "poufny",
+ 	 	 	 	"trans": "poufne",
  	 	 	 	"eng": "confidential"
  	 	 	},
  	 	 	"decoration2": {
- 	 	 	 	"trans": "Własność SLPD",
+ 	 	 	 	"trans": "Podmiot SLPD",
  	 	 	 	"eng": "Property of SLPD"
  	 	 	},
  	 	 	"accountCreated": {
  	 	 	 	"vars": [
  	 	 	 	 	"date"
  	 	 	 	],
- 	 	 	 	"trans": "plik utworzony ${date}",
+ 	 	 	 	"trans": "plik utworzono ${date}",
  	 	 	 	"eng": "file created at ${date}"
  	 	 	},
  	 	 	"numOfMember": {
@@ -966,7 +966,7 @@
  	 	 	 	 	"eng": "Send Gift"
  	 	 	 	},
  	 	 	 	"trade": {
- 	 	 	 	 	"trans": "Wyślij żądanie handlowe",
+ 	 	 	 	 	"trans": "Wyślij ofertę handlową",
  	 	 	 	 	"eng": "Send Trade Request"
  	 	 	 	},
  	 	 	 	"sendCosmetic": {
@@ -994,12 +994,12 @@
  	 	 	 	 	"eng": "Report Player"
  	 	 	 	},
  	 	 	 	"block": {
- 	 	 	 	 	"trans": "Blokujący gracz",
+ 	 	 	 	 	"trans": "Zablokuj gracza",
  	 	 	 	 	"eng": "Block Player"
  	 	 	 	}
  	 	 	},
  	 	 	"equipped": {
- 	 	 	 	"trans": "Wyposażone",
+ 	 	 	 	"trans": "Wyposażenie",
  	 	 	 	"eng": "Equipped"
  	 	 	},
  	 	 	"inventory": {
@@ -1020,13 +1020,13 @@
  	 	 	 	 	"eng": "Error"
  	 	 	 	},
  	 	 	 	"subtitle": {
- 	 	 	 	 	"trans": "Destrukcyjne niepowodzenie naliczone",
+ 	 	 	 	 	"trans": "Przedmiot uległ uszkodzeniu",
  	 	 	 	 	"eng": "Destructive failure accrued"
  	 	 	 	}
  	 	 	},
  	 	 	"upgradeSuccess": {
  	 	 	 	"title": {
- 	 	 	 	 	"trans": "Sukces Kalibracji",
+ 	 	 	 	 	"trans": "Kalibracja Pomyślna",
  	 	 	 	 	"eng": "Calibration Success"
  	 	 	 	},
  	 	 	 	"subtitle": {
@@ -1036,7 +1036,7 @@
  	 	 	},
  	 	 	"leaveDungeon": {
  	 	 	 	"title": {
- 	 	 	 	 	"trans": "Czy na pewno chcesz opuścić ten Loch?",
+ 	 	 	 	 	"trans": "Na pewno chcesz opuścić ten Loch?",
  	 	 	 	 	"eng": "Are you sure you want to leave this dungeon?"
  	 	 	 	},
  	 	 	 	"subtitle": {
@@ -1064,14 +1064,14 @@
  	 	 	 	"vars": [
  	 	 	 	 	"nextSlotSize"
  	 	 	 	],
- 	 	 	 	"trans": "Powiększ miejsca do ${nextSlotSize}",
+ 	 	 	 	"trans": "Powiększ stragan do ${nextSlotSize} slotów",
  	 	 	 	"eng": "Increase slot to ${nextSlotSize}"
  	 	 	},
  	 	 	"increaseSlotDescription": {
  	 	 	 	"vars": [
  	 	 	 	 	"nextSlotSize"
  	 	 	 	],
- 	 	 	 	"trans": "Wydaj Bitcoiny, aby zwiększyć liczbę przedmiotów, które możesz umieścić na swoim straganie w tym samym czasie",
+ 	 	 	 	"trans": "Użyj Bitcoinów, aby powiększyć liczbę przedmiotów możliwych do wystawy na straganie",
  	 	 	 	"eng": "Spend Bitcoins to increase how many items you can put in your stall at the same time"
  	 	 	},
  	 	 	"cantEnterError": {
@@ -1119,15 +1119,15 @@
  	 	 	 	"eng": "The task will continue even if you close the game"
  	 	 	},
  	 	 	"syncing": {
- 	 	 	 	"trans": "Synchronizacja",
+ 	 	 	 	"trans": "Synchronizowanie",
  	 	 	 	"eng": "Syncing"
  	 	 	},
  	 	 	"incompleteError": {
- 	 	 	 	"trans": "Upewnij się, że czas urządzenia jest prawidłowy.",
+ 	 	 	 	"trans": "Upewnij się, czy godzina na Twoim urządzeniu jest prawidłowa.",
  	 	 	 	"eng": "Please ensure your device time is correct."
  	 	 	},
  	 	 	"manualRefresh": {
- 	 	 	 	"trans": "Ręczne odświeżanie",
+ 	 	 	 	"trans": "Odśwież Ręcznie",
  	 	 	 	"eng": "Manual Refresh"
  	 	 	},
  	 	 	"abort": {
@@ -1161,7 +1161,7 @@
  	 	 	 	 	"vars": [
  	 	 	 	 	 	"gangName"
  	 	 	 	 	],
- 	 	 	 	 	"trans": "Zajęte przez ${gangName}",
+ 	 	 	 	 	"trans": "Przejęte przez ${gangName}",
  	 	 	 	 	"eng": "Occupied by ${gangName}"
  	 	 	 	},
  	 	 	 	"occupationPoints": {
@@ -1181,11 +1181,11 @@
  	 	 	 	},
  	 	 	 	"printingTooLow": {
  	 	 	 	 	"title": {
- 	 	 	 	 	 	"trans": "Popraw rangę Drukowania",
+ 	 	 	 	 	 	"trans": "Zwiększ poziom Drukowania",
  	 	 	 	 	 	"eng": "Improve Printing Rank"
  	 	 	 	 	},
  	 	 	 	 	"description": {
- 	 	 	 	 	 	"trans": "Ranga Drukowania określa poziom wydrukowanego przedmiotu. Uzyskaj doświadczenie w drukowaniu poprzez \"Wydrukuj i Sprzedaj\" na czarnym rynku",
+ 	 	 	 	 	 	"trans": "Poziom Drukowania określa poziom wydrukowanego przedmiotu. Uzyskaj doświadczenie w wydruku poprzez \"Wydrukuj i Sprzedaj\" na Czarnym Rynku",
  	 	 	 	 	 	"eng": "Printing Rank determines the level of item you print. Gain printing exp by print & sell in Black Market"
  	 	 	 	 	}
  	 	 	 	},
@@ -1218,7 +1218,7 @@
  	 	 	 	 	 	"eng": "Use AI Core"
  	 	 	 	 	},
  	 	 	 	 	"description": {
- 	 	 	 	 	 	"trans": "Wygląda na to, że masz jakieś rdzenie AI, użyj ich do automatycznego podnoszenia poziomu AFK w odpowiednim obszarze poziomu.",
+ 	 	 	 	 	 	"trans": "Wygląda na to, że masz jakieś rdzenie AI, użyj ich do automatycznego zwiększania swojego Poziomu w odpowiednim obszarze względem swojego.",
  	 	 	 	 	 	"eng": "Looks like you have some AI Cores, use them to do AFK auto leveling in appropriate level area."
  	 	 	 	 	}
  	 	 	 	},
@@ -1228,7 +1228,7 @@
  	 	 	 	 	 	"eng": "Acquire AI Cores"
  	 	 	 	 	},
  	 	 	 	 	"description": {
- 	 	 	 	 	 	"trans": "Możesz uzyskać Rdzenie SI przez: \n         - Scavenge w różnych lokalizacjach \n         - Wytwarzanie przy pomocy procesorów Hash i skrawkami Technologii \n         - grabież od przeciwników we wszystkich lokalizacjach",
+ 	 	 	 	 	 	"trans": "Możesz uzyskać Rdzenie SI przez: \n         - Walkę w różnych lokalizacjach \n         - Wytwarzanie przy pomocy procesorów Hash i skrawek Technologii \n         - grabież od przeciwników we wszystkich lokalizacjach",
  	 	 	 	 	 	"eng": "You may get AI Cores by: \r\n        - Scavenge in various locations\r\n        - Crafting with Hash Processors and Tech Scraps\r\n        - Looting from enemies in all locations"
  	 	 	 	 	}
  	 	 	 	},
@@ -1241,7 +1241,7 @@
  	 	 	},
  	 	 	"globalQuest": {
  	 	 	 	"progressTitle": {
- 	 	 	 	 	"trans": "Włamanie do Twierdzy SL-Data",
+ 	 	 	 	 	"trans": "Włamanie do Bazy SL-Data",
  	 	 	 	 	"eng": "SL-Data Fortress Breach"
  	 	 	 	},
  	 	 	 	"infoBox": {
@@ -1288,7 +1288,7 @@
  	 	},
  	 	"suspended": {
  	 	 	"title": {
- 	 	 	 	"trans": "Zawieszony",
+ 	 	 	 	"trans": "Konto Zawieszone",
  	 	 	 	"eng": "Suspended"
  	 	 	},
  	 	 	"description": {
@@ -1345,7 +1345,7 @@
  	 	 	 	 	"eng": "system idle"
  	 	 	 	},
  	 	 	 	"subtitle": {
- 	 	 	 	 	"trans": "Proszę wstawić przedmiot",
+ 	 	 	 	 	"trans": "Proszę wybrać przedmiot",
  	 	 	 	 	"eng": "Please insert an item"
  	 	 	 	}
  	 	 	},
@@ -1409,7 +1409,7 @@
  	 	 	 	"eng": "sound effects"
  	 	 	},
  	 	 	"enableInGameNotificationSound": {
- 	 	 	 	"trans": "W dźwięku powiadomień o grze",
+ 	 	 	 	"trans": "Powiadomienia dźwiękowe w grze",
  	 	 	 	"eng": "In game notification sound"
  	 	 	},
  	 	 	"disableAttackBar": {
@@ -1440,7 +1440,7 @@
  	 	 	 	 	"eng": "Hide NPC"
  	 	 	 	},
  	 	 	 	"description": {
- 	 	 	 	 	"trans": "Ukryj sztukę NPC na ekranie",
+ 	 	 	 	 	"trans": "Ukryj cień NPC podczas walki",
  	 	 	 	 	"eng": "Hide NPC art on screen"
  	 	 	 	}
  	 	 	},
@@ -1456,7 +1456,7 @@
  	 	 	 	 	"eng": "Disable Chat Effect"
  	 	 	 	},
  	 	 	 	"description": {
- 	 	 	 	 	"trans": "Wyłącz, jeśli karta czatu spowalnia podczas pominięć",
+ 	 	 	 	 	"trans": "Wyłącz, jeśli karta czatu laguje podczas pominięć",
  	 	 	 	 	"eng": "Disable if chat tab lags during skips"
  	 	 	 	}
  	 	 	},
@@ -1480,7 +1480,7 @@
  	 	 	 	 	"eng": "Tiny"
  	 	 	 	},
  	 	 	 	"tiny": {
- 	 	 	 	 	"trans": "Malutki",
+ 	 	 	 	 	"trans": "Tyci-Tyci",
  	 	 	 	 	"eng": "Tiny"
  	 	 	 	}
  	 	 	},
@@ -1532,7 +1532,7 @@
  	 	 	 	 	"eng": "Cancel Afk and logout?"
  	 	 	 	},
  	 	 	 	"description": {
- 	 	 	 	 	"trans": "Czy na pewno chcesz anulować swój AFK i wylogować? Zasóby użyte do rozpoczęcia zadania nie zostaną zwrócone.",
+ 	 	 	 	 	"trans": "Czy na pewno chcesz anulować zadanie AFK i wyjść? Zasóby użyte do rozpoczęcia zadania nie zostaną zwrócone.",
  	 	 	 	 	"eng": "Are you sure you want to cancel your afk and logout? the resource used to start the task will NOT be refunded."
  	 	 	 	}
  	 	 	}
@@ -1579,7 +1579,7 @@
  	 	 	 	 	"vars": [
  	 	 	 	 	 	"percent"
  	 	 	 	 	],
- 	 	 	 	 	"trans": "Czy jesteś pewien, że chcesz skalibrować ten przedmiot? Ryzyko destrukcyjnej awarii wynosi ${percent}%",
+ 	 	 	 	 	"trans": "Czy jesteś pewien, że chcesz skalibrować ten przedmiot? Ryzyko zniszczenia przedmiotu wynosi ${percent}%",
  	 	 	 	 	"eng": "Are you sure you want to calibrate this item with ${percent}% destructive failure chance?"
  	 	 	 	}
  	 	 	}
@@ -1646,21 +1646,21 @@
  	 	 	 	 	"vars": [
  	 	 	 	 	 	"resourceContribution"
  	 	 	 	 	],
- 	 	 	 	 	"trans": "${resourceContribution} Zasóbów",
+ 	 	 	 	 	"trans": "${resourceContribution} Zasoby",
  	 	 	 	 	"eng": "${resourceContribution} Resource"
  	 	 	 	},
  	 	 	 	"occupation": {
  	 	 	 	 	"vars": [
  	 	 	 	 	 	"occupationContribution"
  	 	 	 	 	],
- 	 	 	 	 	"trans": "${occupationContribution} punktów okupacji",
+ 	 	 	 	 	"trans": "${occupationContribution} punkty okupacji",
  	 	 	 	 	"eng": "${occupationContribution} occupation point"
  	 	 	 	},
  	 	 	 	"fund": {
  	 	 	 	 	"vars": [
  	 	 	 	 	 	"moneyContribution"
  	 	 	 	 	],
- 	 	 	 	 	"trans": "Finansowanie ${moneyContribution}",
+ 	 	 	 	 	"trans": "Finanse ${moneyContribution}",
  	 	 	 	 	"eng": "${moneyContribution} funding"
  	 	 	 	},
  	 	 	 	"exp": {
@@ -1734,13 +1734,13 @@
  	 	},
  	 	"rewardActionConfirmModal": {
  	 	 	"captcha": {
- 	 	 	 	"trans": "Przeciągnij wszystkie ikony procesów do czerwonego pola, aby zainicjować zadanie",
+ 	 	 	 	"trans": "Przeciągnij wszystkie ikony do czerwonego pola, aby rozpocząć zadanie",
  	 	 	 	"eng": "Drag all processes icons into to the red box entirely to initiate the task"
  	 	 	}
  	 	},
  	 	"confirmModal": {
  	 	 	"defaultConfirm": {
- 	 	 	 	"trans": "Potwierdzać",
+ 	 	 	 	"trans": "Potwierdzam",
  	 	 	 	"eng": "Confirm"
  	 	 	}
  	 	},
@@ -1766,7 +1766,7 @@
  	 	 	 	},
  	 	 	 	"selectConfirm": {
  	 	 	 	 	"title": {
- 	 	 	 	 	 	"trans": "Wybierz godło?",
+ 	 	 	 	 	 	"trans": "Wybrać godło?",
  	 	 	 	 	 	"eng": "Select Emblem?"
  	 	 	 	 	}
  	 	 	 	}
@@ -1780,7 +1780,7 @@
  	 	 	 	 	"vars": [
  	 	 	 	 	 	"date"
  	 	 	 	 	],
- 	 	 	 	 	"trans": "Wygasa na ${date}",
+ 	 	 	 	 	"trans": "Wygasa za ${date}",
  	 	 	 	 	"eng": "Expires at ${date}"
  	 	 	 	}
  	 	 	}
@@ -1818,7 +1818,7 @@
  	 	 	},
  	 	 	"hasRefererCheckbox": {
  	 	 	 	"description": {
- 	 	 	 	 	"trans": "Zaznacz tylko, jeżeli gra została Ci przez kogoś polecona (Opcjonalne)",
+ 	 	 	 	 	"trans": "Zaznacz wyłącznie, jeżeli gra została Ci przez kogoś polecona (Opcjonalne)",
  	 	 	 	 	"eng": "Only check if you have a referer (Optional)"
  	 	 	 	},
  	 	 	 	"title": {
@@ -1828,7 +1828,7 @@
  	 	 	},
  	 	 	"refererModal": {
  	 	 	 	"title": {
- 	 	 	 	 	"trans": "Kto polecił Ci grę?",
+ 	 	 	 	 	"trans": "Kto polecił Ci tę grę?",
  	 	 	 	 	"eng": "Who referred you?"
  	 	 	 	},
  	 	 	 	"description": {
@@ -1883,7 +1883,7 @@
  	 	 	 	"eng": "Coupon"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "Jeśli masz kupon z jednego z naszych wydarzeń, możesz go tutaj odebrać.",
+ 	 	 	 	"trans": "Jeśli masz kupon z jednego z naszych wydarzeń, możesz go tutaj wpisać.",
  	 	 	 	"eng": "If you have a coupon from one of our events, you can claim it here."
  	 	 	},
  	 	 	"placeholder": {
@@ -1915,11 +1915,11 @@
  	 	 	 	"eng": "Day"
  	 	 	},
  	 	 	"canClaim": {
- 	 	 	 	"trans": "Dostępny",
+ 	 	 	 	"trans": "Dostępne",
  	 	 	 	"eng": "Available"
  	 	 	},
  	 	 	"claimed": {
- 	 	 	 	"trans": "Odebrane",
+ 	 	 	 	"trans": "Odebrano",
  	 	 	 	"eng": "Claimed"
  	 	 	},
  	 	 	"cantClaimYet": {
@@ -1929,7 +1929,7 @@
  	 	},
  	 	"combat": {
  	 	 	"enemyIsDeadTitle": {
- 	 	 	 	"trans": "Nic tu nie znalazłeś",
+ 	 	 	 	"trans": "Przeciwnik jest martwy, natomiast nic nie upuścił...",
  	 	 	 	"eng": "You found nothing here"
  	 	 	},
  	 	 	"equipmentBrokenMsg": {
@@ -1966,16 +1966,16 @@
  	 	 	},
  	 	 	"preventDestructionButton": {
  	 	 	 	"title": {
- 	 	 	 	 	"trans": "Zapobierzenie zniszczeniu",
+ 	 	 	 	 	"trans": "Zapobiegnij zniszczeniu",
  	 	 	 	 	"eng": "Prevent Destruction"
  	 	 	 	}
  	 	 	},
  	 	 	"failureRateNoBreak": {
- 	 	 	 	"trans": "Szansa na bezpieczne niepowodzenie",
+ 	 	 	 	"trans": "Szansa na zachowanie przedmiotu przy porażce",
  	 	 	 	"eng": "Chance of safe failure"
  	 	 	},
  	 	 	"failureRate": {
- 	 	 	 	"trans": "Szansa na destrukcyjną porażkę",
+ 	 	 	 	"trans": "Szansa na zniszczenie przy porażce",
  	 	 	 	"eng": "Chance of destructive failure"
  	 	 	},
  	 	 	"notActivated": {
@@ -2010,7 +2010,7 @@
  	 	 	 	 	"eng": "Processing"
  	 	 	 	},
  	 	 	 	"description": {
- 	 	 	 	 	"trans": "Możesz opuścić tę stronę i wrócić później",
+ 	 	 	 	 	"trans": "Nie patrz mi na ręce, możesz opuścić tę stronę i wrócić później",
  	 	 	 	 	"eng": "You may leave this page and come back later"
  	 	 	 	}
  	 	 	},
@@ -2039,7 +2039,7 @@
  	 	 	 	"eng": "Cyberpunk Text-based MMORPG"
  	 	 	},
  	 	 	"description1": {
- 	 	 	 	"trans": "CyberCode Online to gra online. Do przechowywania danych gry potrzebne jest konto.",
+ 	 	 	 	"trans": "CyberCode Online to gra online. Do zapisu Twojego postępu gry potrzebne jest konto.",
  	 	 	 	"eng": "CyberCode Online is an online game, an account is needed to store game data."
  	 	 	},
  	 	 	"description2": {
@@ -2053,7 +2053,7 @@
  	 	},
  	 	"itemInbox": {
  	 	 	"title": {
- 	 	 	 	"trans": "Skrzynka na Przedmioty",
+ 	 	 	 	"trans": "Otrzymane Przedmioty",
  	 	 	 	"eng": "Item Inbox"
  	 	 	},
  	 	 	"descriptionV2": {
@@ -2061,7 +2061,7 @@
  	 	 	 	"eng": "Items here will be automatically moved to your inventory once you have enough space."
  	 	 	},
  	 	 	"descriptionV3": {
- 	 	 	 	"trans": "Tylko część pełnej listy zostanie wyświetlona, jeśli masz zbyt wiele elementów w skrzynce odbiorczej.",
+ 	 	 	 	"trans": "Tylko część z pełnej listy zostanie wyświetlona, jeśli masz zbyt wiele przedmiotów do odebrania.",
  	 	 	 	"eng": "Only part of the full list will be displayed if you have too many items in your inbox."
  	 	 	},
  	 	 	"expiryDisplay": {
@@ -2072,11 +2072,11 @@
  	 	 	 	"eng": "Expires: ${date}"
  	 	 	},
  	 	 	"empty": {
- 	 	 	 	"trans": "Nie masz nic w skrzynce na przedmioty",
+ 	 	 	 	"trans": "Nie masz nic do odebrania",
  	 	 	 	"eng": "There is no item in your item inbox"
  	 	 	},
  	 	 	"tooManyItems": {
- 	 	 	 	"trans": "W skrzynce odbiorczej może być więcej elementów, ale masz zbyt wiele elementów w skrzynce odbiorczej, aby je wszystkie wyświetlić.",
+ 	 	 	 	"trans": "W tym miejscu może być więcej przedmiotów, ale masz ich zbyt wiele, aby je wszystkie wyświetlić.",
  	 	 	 	"eng": "There might be more items in your inbox, but you have too many items in your inbox to display them all."
  	 	 	},
  	 	 	"getAllItems": {
@@ -2086,15 +2086,15 @@
  	 	},
  	 	"linksPage": {
  	 	 	"title": {
- 	 	 	 	"trans": "Spinki do mankietów",
+ 	 	 	 	"trans": "Linki",
  	 	 	 	"eng": "Links"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "Tutaj możesz znaleźć wszystkie nasze linki do mediów społecznościowych, przyjść i połączyć się z niesamowitą społecznością!",
+ 	 	 	 	"trans": "Tutaj możesz znaleźć wszystkie nasze linki do mediów społecznościowych, połącz się z niesamowitą społecznością!",
  	 	 	 	"eng": "Here you can find all our social media links, come and connect with the amazing community!"
  	 	 	},
  	 	 	"credits": {
- 	 	 	 	"trans": "Kredyty",
+ 	 	 	 	"trans": "Twórcy",
  	 	 	 	"eng": "Credits"
  	 	 	},
  	 	 	"reportBug": {
@@ -2115,7 +2115,7 @@
  	 	 	 	 	"eng": "Nearby Enemies"
  	 	 	 	},
  	 	 	 	"desc": {
- 	 	 	 	 	"trans": "Skanuję w poszukiwaniu pobliskich wrogów na ulicy, wrogowie poza Lochami są słabsi i łatwiejsi do pokonania. Po ich pokonaniu zdobywasz jednak mniej doświadczenia",
+ 	 	 	 	 	"trans": "Skanuj w poszukiwaniu pobliskich wrogów na ulicy, wrogowie poza Lochami są słabsi i łatwiejsi do pokonania. Po ich pokonaniu zdobywasz za to mniej doświadczenia",
  	 	 	 	 	"eng": "Scans for nearby enemies on the street, enemies outside dungeons are weaker and easier to defeat. However they also drop less exp"
  	 	 	 	}
  	 	 	}
@@ -2139,7 +2139,7 @@
  	 	 	 	"vars": [
  	 	 	 	 	"level"
  	 	 	 	],
- 	 	 	 	"trans": "Musisz być co najmniej ${level} poziom, aby porozmawiać",
+ 	 	 	 	"trans": "Musisz mieć co najmniej ${level} poziom, aby porozmawiać",
  	 	 	 	"eng": "You need to be at least level ${level} to chat"
  	 	 	}
  	 	},
@@ -2149,7 +2149,7 @@
  	 	 	 	"eng": "Equipment Cache not found"
  	 	 	},
  	 	 	"subTitle": {
- 	 	 	 	"trans": "Zbieraj plany od wrogów i w lochach, aby wydrukować swoją nową broń i zbroję",
+ 	 	 	 	"trans": "Zbieraj plany od wrogów lub w lochach, aby wydrukować swoją nową broń i zbroję",
  	 	 	 	"eng": "gather the caches from enemies and dungeons to print your new weapons and armor"
  	 	 	},
  	 	 	"description": {
@@ -2185,7 +2185,7 @@
  	 	 	 	"eng": "You must be idle to do this action"
  	 	 	},
  	 	 	"noItem": {
- 	 	 	 	"trans": "Obecny nie masz w sprzedaży żadnego przedmiotu",
+ 	 	 	 	"trans": "Obecnie nie masz w sprzedaży żadnego przedmiotu",
  	 	 	 	"eng": " You current don't have any item on sale"
  	 	 	}
  	 	},
@@ -2295,7 +2295,7 @@
  	 	 	 	"eng": "combat"
  	 	 	},
  	 	 	"dungeon": {
- 	 	 	 	"trans": "loch",
+ 	 	 	 	"trans": "lochy",
  	 	 	 	"eng": "dungeon"
  	 	 	},
  	 	 	"social": {
@@ -2355,23 +2355,23 @@
  	 	 	 	"eng": "Select Container"
  	 	 	},
  	 	 	"hint": {
- 	 	 	 	"trans": "Odblokuj pojemnik, aby wziąć przednioty z środka, wymaga niewielkiej ilości resztek technologicznych",
+ 	 	 	 	"trans": "Odblokuj pojemnik, aby wziąć przednioty ze środka. Wymaga to pewnej ilości Złomu Technologicznego",
  	 	 	 	"eng": "Unlock a container to get the items inside, requires small amount of tech scraps"
  	 	 	},
  	 	 	"increaseEpicDropRate": {
  	 	 	 	"title": {
- 	 	 	 	 	"trans": "Zwiększ Epicką Szybkość Wypadania",
+ 	 	 	 	 	"trans": "Zwiększ szansę na Epicki drop",
  	 	 	 	 	"eng": "Increase Epic Tier Drop Rate"
  	 	 	 	},
  	 	 	 	"description": {
  	 	 	 	 	"vars": [
  	 	 	 	 	 	"itemName"
  	 	 	 	 	],
- 	 	 	 	 	"trans": "Otrzymaj do 2% (0,5% na legendarny pojemnik) dodatkowej szansy na uzyskanie Planu poziomu epickiego podczas odblokowywania zablokowanego legendarnego pojemnika poprzez aktywację ${itemName}",
+ 	 	 	 	 	"trans": "Otrzymaj do 2% (0,5% na legendarny pojemnik) dodatkowej szansy na uzyskanie Planu poziomu epickiego podczas odblokowywania Legendarnego Pojemnika poprzez aktywację ${itemName}",
  	 	 	 	 	"eng": "Receive up to 2% (0.5% per Legendary Container) additional chance to get epic tier cache when unlocking Locked Legendary Container by activating ${itemName}"
  	 	 	 	},
  	 	 	 	"button": {
- 	 	 	 	 	"trans": "Zwiększ teraz",
+ 	 	 	 	 	"trans": "Zwiększ szansę",
  	 	 	 	 	"eng": "Increase now"
  	 	 	 	}
  	 	 	},
@@ -2387,7 +2387,7 @@
  	 	 	 	 	"vars": [
  	 	 	 	 	 	"itemName"
  	 	 	 	 	],
- 	 	 	 	 	"trans": "${itemName} jest teraz aktywny, odblokuj Legendarny Pojemnik teraz, aby mieć 0,5% dodatkowej szansy na sprzęt Epickiego poziomu na Legendarny Pojemnik",
+ 	 	 	 	 	"trans": "${itemName} jest teraz aktywny, odblokuj Legendarny Pojemnik, aby mieć 0,5% dodatkowej szansy na drop sprzętu Epickiego poziomu za Pojemnik",
  	 	 	 	 	"eng": "${itemName} is now active, unlock Legendary Container now to have 0.5% additional chance for EPIC tier equipment per Legendary Container"
  	 	 	 	}
  	 	 	},
@@ -2402,22 +2402,22 @@
  	 	 	"vars": [
  	 	 	 	"time"
  	 	 	],
- 	 	 	"trans": "Dostępne ponownie w ${time}",
+ 	 	 	"trans": "Dostępne za ${time}",
  	 	 	"eng": "Available again in ${time}"
  	 	},
  	 	"free": {
- 	 	 	"trans": "Bezpłatny",
+ 	 	 	"trans": "Darmowe",
  	 	 	"eng": "Free"
  	 	},
  	 	"retro": {
  	 	 	"name": {
- 	 	 	 	"trans": "Pakiet synthwave",
+ 	 	 	 	"trans": "Pakiet Synthwave",
  	 	 	 	"eng": "Synthwave bundle"
  	 	 	}
  	 	},
  	 	"skip": {
  	 	 	"name": {
- 	 	 	 	"trans": "Pomiń pakiet dostaw",
+ 	 	 	 	"trans": "Pomiń pakiety",
  	 	 	 	"eng": "Skip supply bundle"
  	 	 	}
  	 	},
@@ -2454,7 +2454,7 @@
  	 	"cycle": {
  	 	 	"daily": {
  	 	 	 	"name": {
- 	 	 	 	 	"trans": "Codzienny",
+ 	 	 	 	 	"trans": "Nagrody dzienne",
  	 	 	 	 	"eng": "Daily"
  	 	 	 	},
  	 	 	 	"description": {
@@ -2464,7 +2464,7 @@
  	 	 	},
  	 	 	"weekly": {
  	 	 	 	"name": {
- 	 	 	 	 	"trans": "Co tydzień",
+ 	 	 	 	 	"trans": "Nagrody Tygodniowe",
  	 	 	 	 	"eng": "Weekly"
  	 	 	 	},
  	 	 	 	"description": {
@@ -2474,7 +2474,7 @@
  	 	 	},
  	 	 	"monthly": {
  	 	 	 	"name": {
- 	 	 	 	 	"trans": "Miesięczny",
+ 	 	 	 	 	"trans": "Nagrody Miesięczne",
  	 	 	 	 	"eng": "Monthly"
  	 	 	 	},
  	 	 	 	"description": {
@@ -2484,11 +2484,11 @@
  	 	 	},
  	 	 	"once": {
  	 	 	 	"name": {
- 	 	 	 	 	"trans": "Pewnego razu",
+ 	 	 	 	 	"trans": "Unikalne Nagrody",
  	 	 	 	 	"eng": "Once"
  	 	 	 	},
  	 	 	 	"description": {
- 	 	 	 	 	"trans": "Jednorazowy specjalny na konto",
+ 	 	 	 	 	"trans": "Jednorazowa nagroda",
  	 	 	 	 	"eng": "One-time special per account"
  	 	 	 	}
  	 	 	}
@@ -2500,7 +2500,7 @@
  	 	 	 	"vars": [
  	 	 	 	 	"current"
  	 	 	 	],
- 	 	 	 	"trans": "Exp Buff (obecnie ${current}%)",
+ 	 	 	 	"trans": "Buff EXP (obecnie ${current}%)",
  	 	 	 	"eng": "EXP Buff (Currently ${current}%)"
  	 	 	},
  	 	 	"description": {
@@ -2519,7 +2519,7 @@
  	 	 	"eng": "back"
  	 	},
  	 	"shield": {
- 	 	 	"trans": "Tarcza",
+ 	 	 	"trans": "Osłona",
  	 	 	"eng": "Shield"
  	 	},
  	 	"health": {
@@ -2527,7 +2527,7 @@
  	 	 	"eng": "Health"
  	 	},
  	 	"escape": {
- 	 	 	"trans": "ucieczka",
+ 	 	 	"trans": "uciekaj",
  	 	 	"eng": "escape"
  	 	},
  	 	"confirm": {
@@ -2539,7 +2539,7 @@
  	 	 	"eng": "send"
  	 	},
  	 	"requires": {
- 	 	 	"trans": "Wymagane",
+ 	 	 	"trans": "Wymagana",
  	 	 	"eng": "Requires"
  	 	},
  	 	"durability": {
@@ -2559,7 +2559,7 @@
  	 	 	"eng": "level"
  	 	},
  	 	"notTradable": {
- 	 	 	"trans": "nie można handlować",
+ 	 	 	"trans": "Nie wymienne",
  	 	 	"eng": "not tradable"
  	 	},
  	 	"amount": {
@@ -2567,7 +2567,7 @@
  	 	 	"eng": "amount"
  	 	},
  	 	"itemUpgradeCapacity": {
- 	 	 	"trans": "Zdolność do Współpracy",
+ 	 	 	"trans": "Zdolności Kalibracyjne",
  	 	 	"eng": "Calibration Capacity"
  	 	},
  	 	"name": {
@@ -2575,7 +2575,7 @@
  	 	 	"eng": "Name"
  	 	},
  	 	"tag": {
- 	 	 	"trans": "Etykietka",
+ 	 	 	"trans": "Etykieta",
  	 	 	"eng": "Tag"
  	 	},
  	 	"gangRank": {
@@ -2587,7 +2587,7 @@
  	 	 	"eng": "Quick Slot"
  	 	},
  	 	"receives": {
- 	 	 	"trans": "Zdobędziesz",
+ 	 	 	"trans": "Uzyskuje",
  	 	 	"eng": "Receives"
  	 	},
  	 	"inputPlaceholder": {
@@ -2648,7 +2648,7 @@
  	 	 	 	"eng": "Name must be at least 4 characters long"
  	 	 	},
  	 	 	"tooLong": {
- 	 	 	 	"trans": "Nazwa musi być krótsza lub równa długości 16 znaków",
+ 	 	 	 	"trans": "Nazwa musi być nie dłuższa niż 16 znaków",
  	 	 	 	"eng": "Name must be less or equal to 16 characters long"
  	 	 	}
  	 	},
@@ -2691,60 +2691,60 @@
  	"battleUI": {
  	 	"quickSlotModal": {
  	 	 	"title": {
- 	 	 	 	"trans": "Wybierz element, aby powiązać z szybkim szczeliną",
+ 	 	 	 	"trans": "Wybierz przedmiot, aby przypisać go do slotu",
  	 	 	 	"eng": "Select an item to bind to quick slot"
  	 	 	}
  	 	}
  	},
  	"enemy": {
  	 	"thief": {
- 	 	 	"trans": "Techno-thief",
+ 	 	 	"trans": "Skradacz Technologii",
  	 	 	"eng": "Techno-Thief"
  	 	}
  	},
  	"cost": {
  	 	"requireGang": {
- 	 	 	"trans": "Wymaga, abyś był w gangu",
+ 	 	 	"trans": "Wymagane jest, abyś był w Gangu",
  	 	 	"eng": "Requires you to be in a gang"
  	 	},
  	 	"requireTopGang": {
- 	 	 	"trans": "Wymaga, abyś był w jednym z Top 2 najlepszych gangów w Rankingu Okupacji",
+ 	 	 	"trans": "To wymaga, abyś był w jednym z Top 2 najlepszych gangów w Rankingu Okupacji",
  	 	 	"eng": "Requires you to be in the Top 2 Gangs on the Occupation Leaderboard"
  	 	}
  	},
  	"inventory": {
  	 	"scrap": {
- 	 	 	"trans": "złom",
+ 	 	 	"trans": "Zezłomuj",
  	 	 	"eng": "scrap"
  	 	},
  	 	"ui": {
  	 	 	"useItem": {
  	 	 	 	"localFightCantUseItem": {
- 	 	 	 	 	"trans": "Nie możesz używać przedmiotu podczas walk ulicznych, przedmioty są dostępne tylko podczas lochów",
+ 	 	 	 	 	"trans": "Nie możesz używać tego przedmiotu podczas walki, przedmioty te są dostępne tylko wewnątrz lochów",
  	 	 	 	 	"eng": "You cannot use item during street fights, items are only available during dungeons"
  	 	 	 	}
  	 	 	},
  	 	 	"autoScrap": {
  	 	 	 	"noItem": {
- 	 	 	 	 	"trans": "Brak przedmiotu do automatycznego zezłomowania",
+ 	 	 	 	 	"trans": "Brak przedmiotów do auto-złomowania",
  	 	 	 	 	"eng": "No item to auto scrap"
  	 	 	 	}
  	 	 	}
  	 	},
  	 	"useItemWithExistingBuffModal": {
  	 	 	"title": {
- 	 	 	 	"trans": "Czy na pewno chcesz użyć tego elementu?",
+ 	 	 	 	"trans": "Czy na pewno chcesz użyć tego przedmiotu?",
  	 	 	 	"eng": "Are you sure you want to use this item?"
  	 	 	},
  	 	 	"description": {
  	 	 	 	"vars": [
  	 	 	 	 	"remaining"
  	 	 	 	],
- 	 	 	 	"trans": "Korzystanie z tego elementu odświeży licznik bieżącego aktywnego buffu i ułoży efekt, jeśli dotyczy. (${remaining})",
+ 	 	 	 	"trans": "Użycie tego przedmiotu odświeży licznik bieżącego aktywnego buffu, jeśli to możliwe efekt się stackuje (${remaining})",
  	 	 	 	"eng": "By using this item will refresh the timer of current active buff and stack the effect if applicable. (${remaining})"
  	 	 	},
  	 	 	"confirmText": {
- 	 	 	 	"trans": "Posługiwać się",
+ 	 	 	 	"trans": "Użyj",
  	 	 	 	"eng": "Use"
  	 	 	}
  	 	}
@@ -2756,7 +2756,7 @@
  	"statsType": {
  	 	"maxHealth": {
  	 	 	"name": {
- 	 	 	 	"trans": "Maksymalne Zdrowie",
+ 	 	 	 	"trans": "Witalność",
  	 	 	 	"eng": "Max Health"
  	 	 	},
  	 	 	"description": {
@@ -2776,7 +2776,7 @@
  	 	},
  	 	"armor": {
  	 	 	"name": {
- 	 	 	 	"trans": "Zbroja",
+ 	 	 	 	"trans": "Osłona",
  	 	 	 	"eng": "Armor"
  	 	 	},
  	 	 	"description": {
@@ -2810,7 +2810,7 @@
  	 	 	 	"eng": "Crit chance"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "Szansa na wykonanie krytycznego ataku",
+ 	 	 	 	"trans": "Szansa na wykonanie krytycznego ciosu",
  	 	 	 	"eng": "Chance of you executing a critical attack"
  	 	 	}
  	 	},
@@ -2820,23 +2820,23 @@
  	 	 	 	"eng": "Crit damage"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "Wpływa na obrażenia od ataku krytycznego, które zadajesz wrogowi",
+ 	 	 	 	"trans": "Wpływa na obrażenia ciosu krytycznego, które zadajesz wrogowi",
  	 	 	 	"eng": "Influence the critical attack damage you deal to the enemy"
  	 	 	}
  	 	},
  	 	"maxShield": {
  	 	 	"name": {
- 	 	 	 	"trans": "Maksymalna Tarcza",
+ 	 	 	 	"trans": "Maksymalna Osłona",
  	 	 	 	"eng": "MaxShield"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "Zwiększa twoją pojemność tarczy",
+ 	 	 	 	"trans": "Zwiększa punkty Twojej Osłony",
  	 	 	 	"eng": "Increases your shield capacity"
  	 	 	}
  	 	},
  	 	"escape": {
  	 	 	"name": {
- 	 	 	 	"trans": "Ucieczka",
+ 	 	 	 	"trans": "Uciekaj",
  	 	 	 	"eng": "Escape"
  	 	 	},
  	 	 	"description": {
@@ -2916,11 +2916,11 @@
  	 	},
  	 	"shieldMultiplier": {
  	 	 	"name": {
- 	 	 	 	"trans": "Mnożnik tarczy",
+ 	 	 	 	"trans": "Mnożnik Osłony",
  	 	 	 	"eng": "Shield multiplier"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "Zwiększa siłę tarczy o dany procent",
+ 	 	 	 	"trans": "Zwiększa siłę Osłony o dany procent",
  	 	 	 	"eng": "Increase strength of shield by percentage"
  	 	 	}
  	 	},
@@ -2970,7 +2970,7 @@
  	 	 	 	"eng": "Calibration Chance"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "Zmniejsza szansę destrukcyjnego niepowodzenia podczas kalibracji przedmiotów",
+ 	 	 	 	"trans": "Zmniejsza szansę na zniszczenie przedmiotu podczas jego kalibracji",
  	 	 	 	"eng": "Reduces chance of destructive failure when calibrating items"
  	 	 	}
  	 	},
@@ -3079,7 +3079,7 @@
  	 	 	 	"vars": [
  	 	 	 	 	"amount"
  	 	 	 	],
- 	 	 	 	"trans": "Przekażesz ${amount} Jednostek z konta",
+ 	 	 	 	"trans": "Przekażesz ${amount} jednostek z Twojego konta",
  	 	 	 	"eng": "This will donate ${amount} Unit from your account"
  	 	 	},
  	 	 	"notEnough": {
@@ -3093,7 +3093,7 @@
  	 	 	 	"eng": "View Profile"
  	 	 	},
  	 	 	"openBotProfileMessage": {
- 	 	 	 	"trans": "Brak dostępu. Wykryto profil innych niż ludzki.",
+ 	 	 	 	"trans": "Brak dostępu. Wykryto nieludzki profil.",
  	 	 	 	"eng": "Access denied. non-human profile detected."
  	 	 	},
  	 	 	"block": {
@@ -3101,7 +3101,7 @@
  	 	 	 	"eng": "Block"
  	 	 	},
  	 	 	"report": {
- 	 	 	 	"trans": "Raport i blok",
+ 	 	 	 	"trans": "Zablokuj i Zgłoś",
  	 	 	 	"eng": "Report and Block"
  	 	 	},
  	 	 	"openPlayerGang": {
@@ -3117,7 +3117,7 @@
  	 	 	 	"eng": "Send Private Message"
  	 	 	},
  	 	 	"reply": {
- 	 	 	 	"trans": "Odpowiedź",
+ 	 	 	 	"trans": "Odpowiedz",
  	 	 	 	"eng": "Reply"
  	 	 	}
  	 	},
@@ -3148,7 +3148,7 @@
  	 	 	},
  	 	 	"agreeToggle": {
  	 	 	 	"title": {
- 	 	 	 	 	"trans": "Rozumiem i nigdy nie będę spamować ani nie łamać żadnych zasad czatu",
+ 	 	 	 	 	"trans": "Rozumiem i nigdy nie będę spamować ani łamać żadnych zasad czatu",
  	 	 	 	 	"eng": "I understand and I will never spam or break any of the chat rules"
  	 	 	 	}
  	 	 	},
@@ -3173,7 +3173,7 @@
  	 	 	 	"eng": "Player contributed content"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "Możesz przyczynić się do tworzenia takich treści i wielu innych, edytując pliki konfiguracyjne na naszej stronie GitHub",
+ 	 	 	 	"trans": "Możesz przyczynić się do tworzenia takich treści lub wielu innych, edytując pliki konfiguracyjne na naszej stronie GitHub",
  	 	 	 	"eng": "You can contribute to content like this and many more too by editing the config files in our GitHub page."
  	 	 	},
  	 	 	"confirm": {
@@ -3209,7 +3209,7 @@
  	 	 	 	"eng": "As this game is made by only one person, it's very difficult translate all languages correctly, but I am working on adding more translations :)"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "Możesz zmienić język w dowolnym miejscu na stronie Ustawienia",
+ 	 	 	 	"trans": "Możesz zmienić język w Ustawieniach",
  	 	 	 	"eng": "You can change language anytime at the settings page"
  	 	 	},
  	 	 	"dontShowAgain": {
@@ -3248,13 +3248,13 @@
  	 	},
  	 	"promotion": {
  	 	 	"dontShowAgain": {
- 	 	 	 	"trans": "Nie pokazuj ponownie tej transmisji",
+ 	 	 	 	"trans": "Nie pokazuj tego ponownie",
  	 	 	 	"eng": "Don\\'t show this broadcast again"
  	 	 	}
  	 	},
  	 	"resultScreen": {
  	 	 	"title": {
- 	 	 	 	"trans": "Wygrana",
+ 	 	 	 	"trans": "Zwycięstwo!",
  	 	 	 	"eng": "Victory"
  	 	 	},
  	 	 	"subTitle": {
@@ -3352,7 +3352,7 @@
  	 	 	 	"vars": [
  	 	 	 	 	"diff"
  	 	 	 	],
- 	 	 	 	"trans": "Niedokładny czas urządzenia (różnica czasu: ${diff}). Aby zapewnić, że funkcje gry, takie jak Buff, Skip i AFK Dispeld. Zsynchronizuj czas urządzenia z siecią i upewnij się, że strefa czasu jest ustawiona poprawnie",
+ 	 	 	 	"trans": "Niedokładny czas urządzenia (różnica czasu: ${diff}). Aby zagwarantować, że funkcje gry, takie jak Buff, Skip i AFK były poprawnie wyświetlane Zsynchronizuj czas urządzenia z siecią i upewnij się, że strefa czasu jest ustawiona poprawnie",
  	 	 	 	"eng": "Inaccurate device time (time difference: ${diff}). to ensure game features such as buff, time skip and AFK Task display correctly. Please sync your device time with network and ensure your time-zone is set correctly"
  	 	 	}
  	 	},
@@ -3473,16 +3473,16 @@
  	 	 	"eng": "Take all"
  	 	},
  	 	"discard": {
- 	 	 	"trans": "Odrzuć",
+ 	 	 	"trans": "Zostaw",
  	 	 	"eng": "Discard"
  	 	},
  	 	"discardPrompt": {
  	 	 	"title": {
- 	 	 	 	"trans": "Czy na pewno chcesz to odrzucić?",
+ 	 	 	 	"trans": "Jesteś pewien, że chcesz to porzucić?",
  	 	 	 	"eng": "Are you sure you want to discard?"
  	 	 	},
  	 	 	"confirm": {
- 	 	 	 	"trans": "Odrzuć",
+ 	 	 	 	"trans": "Porzuć",
  	 	 	 	"eng": "Discard"
  	 	 	},
  	 	 	"warning": {
@@ -3534,17 +3534,17 @@
  	 	 	 	"eng": "Open Crate"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "Otwórz 4 skrzynie w lochu, aby zdobyć słodkie łupy!",
+ 	 	 	 	"trans": "Otwórz 4 skrzynie w lochu, aby zdobyć przydatne łupy!",
  	 	 	 	"eng": "Open 4 crates in dungeon to get them sweet loots!"
  	 	 	}
  	 	},
  	 	"market": {
  	 	 	"displayName": {
- 	 	 	 	"trans": "Kupiec na Rynku",
+ 	 	 	 	"trans": "Kupiec Rynkowy",
  	 	 	 	"eng": "Market merchant"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "Możesz sprzedawać i kupować przedmioty od graczy na rynku, wypróbuj go, wystawiając przedmiot na rynku graczy",
+ 	 	 	 	"trans": "Możesz sprzedawać i kupować przedmioty od graczy na rynku, wypróbuj to, wystawiając przedmiot na rynku",
  	 	 	 	"eng": "You can sell and purchase items from players in the player market, try it out by adding an item to the player market"
  	 	 	}
  	 	},
@@ -3560,7 +3560,7 @@
  	 	 	 	"vars": [
  	 	 	 	 	"level"
  	 	 	 	],
- 	 	 	 	"trans": "Osiągnij poziom ${level} dla specjalnych prezentów!",
+ 	 	 	 	"trans": "Osiągnij poziom ${level} aby uzyskać specjalne prezenty!",
  	 	 	 	"eng": "Reach level ${level} for special gifts!"
  	 	 	}
  	 	},
@@ -3572,7 +3572,7 @@
  	 	 	 	"eng": "You can take a look at our community tutorial page to learn more about the game. there are tons of tips and guides to help you get started!"
  	 	 	},
  	 	 	"questProgress": {
- 	 	 	 	"trans": "Tutorial Quest Complete",
+ 	 	 	 	"trans": "Zakończyłeś Samouczek",
  	 	 	 	"eng": "Tutorial quest complete"
  	 	 	}
  	 	},
@@ -3636,7 +3636,7 @@
  	 	 	 	"eng": "Deal Damage"
  	 	 	},
  	 	 	"exp": {
- 	 	 	 	"trans": "Zyskaj Exp",
+ 	 	 	 	"trans": "Zyskaj EXP",
  	 	 	 	"eng": "Gain exp"
  	 	 	},
  	 	 	"joinDungeon": {
@@ -3661,7 +3661,7 @@
  	 	 	}
  	 	},
  	 	"abandonConfirm": {
- 	 	 	"trans": "Czy jesteś pewien, że chcesz porzucić tą misję?",
+ 	 	 	"trans": "Czy jesteś pewien, że chcesz porzucić tę misję?",
  	 	 	"eng": "Are you sure you want to abandon this quest?"
  	 	}
  	},
@@ -3671,19 +3671,19 @@
  	 	 	"eng": "Chat Disabled"
  	 	},
  	 	"description1": {
- 	 	 	"trans": "Bardzo nam przykro, że tak się stało. Dlatego musimy wyciszić, kiedy jest to potrzebne. Przeczytaj nasze zasady czatu z poniższego linku, aby uzyskać pełne informacje",
+ 	 	 	"trans": "Bardzo nam przykro, że tak się stało. Natomiast wyciszamy graczy, kiedy jest to konieczne. Przeczytaj nasze zasady czatu z poniższego linku, aby uzyskać pełne informacje",
  	 	 	"eng": "We are very sorry this happened, please understand we are required to maintain a safe environment for all players and ensure that everyone can play the game in a pleasant environment. Thats why we have to mute when it is needed. please do read our chat rules from the link below for full information"
  	 	},
  	 	"description2": {
- 	 	 	"trans": "Jeśli uważasz, że było to nieporozumienie, skontaktuj się z moderatorem za pośrednictwem naszego kanału Discord Linowanego poniżej.",
+ 	 	 	"trans": "Jeśli uważasz, że to nieporozumienie, skontaktuj się z moderatorem za pośrednictwem naszego kanału Discord link jest poniżej.",
  	 	 	"eng": "If you believe it was a misunderstanding, please contact the moderator via our discord channel linked below."
  	 	},
  	 	"description3": {
- 	 	 	"trans": "Jeśli chcesz zgłosić moderatora do nadużycia lub niewłaściwego postępowania, możesz skontaktować",
+ 	 	 	"trans": "Jeśli chcesz zgłosić moderatora za nadużycie lub niewłaściwe postępowanie, skorzystaj z Formularza Odwołania",
  	 	 	"eng": "If you would like to report a moderator for abuse or misconduct, you may reach out to Dexter (the developer of this app) via the appeal form below"
  	 	},
  	 	"description4": {
- 	 	 	"trans": "Alternatywnie możesz również skontaktować się z programistą za pośrednictwem poczty elektronicznej na stronie ching.huang.dexter@gmail.com",
+ 	 	 	"trans": "Alternatywnie możesz również skontaktować się z właścicielem gry za pośrednictwem poczty elektronicznej na stronie ching.huang.dexter@gmail.com",
  	 	 	"eng": "Alternatively, you may also contact the developer via email at ching.huang.dexter@gmail.com"
  	 	},
  	 	"rules": {
@@ -3710,7 +3710,7 @@
  	 	 	"vars": [
  	 	 	 	"count"
  	 	 	],
- 	 	 	"trans": "Wybrane elementy ${count}",
+ 	 	 	"trans": "Wybrane przedmioty ${count}",
  	 	 	"eng": "Selected ${count} items"
  	 	}
  	},
@@ -3720,11 +3720,11 @@
  	 	 	"eng": "You have logged in on another device"
  	 	},
  	 	"description": {
- 	 	 	"trans": "Jeśli chcesz kontynuować grę na tym urządzeniu, kliknij ponownie połącz.",
+ 	 	 	"trans": "Jeśli chcesz kontynuować grę na tym urządzeniu, kliknij Połącz ponownie.",
  	 	 	"eng": "If you wish to continue playing on this device, please click reconnect."
  	 	},
  	 	"restartApp": {
- 	 	 	"trans": "Ponownie połącz ponownie",
+ 	 	 	"trans": "Połącz ponownie",
  	 	 	"eng": "Reconnect Now"
  	 	}
  	},
@@ -3745,7 +3745,7 @@
  	 	 	 	 	"itemName",
  	 	 	 	 	"currentPercent"
  	 	 	 	],
- 	 	 	 	"trans": "Redukcja czasu (obecnie ${currentPercent}%)",
+ 	 	 	 	"trans": "Redukcja czasu (wynosi ${currentPercent}%)",
  	 	 	 	"eng": "Time Reduction (currently ${currentPercent}%)"
  	 	 	},
  	 	 	"description": {
@@ -3788,7 +3788,7 @@
  	 	 	 	"eng": "Boost now"
  	 	 	},
  	 	 	"enableBoost": {
- 	 	 	 	"trans": "Włącz doładowanie nagrody",
+ 	 	 	 	"trans": "Włącz doładowanie nagród",
  	 	 	 	"eng": "Enable reward boost"
  	 	 	}
  	 	},
@@ -3802,7 +3802,7 @@
  	"trade": {
  	 	"moneySelectModal": {
  	 	 	"title": {
- 	 	 	 	"trans": "Ile bitcoinów chciałbyś wiązać się z handlem?",
+ 	 	 	 	"trans": "Za ile bitcoinów chciałbyś wymienić ten przedmiot?",
  	 	 	 	"eng": "How much Bitcoin would you like to bind to the trade?"
  	 	 	}
  	 	},
@@ -3810,11 +3810,11 @@
  	 	 	"vars": [
  	 	 	 	"playerName"
  	 	 	],
- 	 	 	"trans": "Czekam na ${playerName}, aby zaakceptować handel ...",
+ 	 	 	"trans": "Oczekuję na ${playerName}, aby zaakceptować handel ...",
  	 	 	"eng": "Waiting for ${playerName} to accept the trade..."
  	 	},
  	 	"lockedItem": {
- 	 	 	"trans": "Zablokowałeś ten przedmiot, odblokuj go najpierw do handlu",
+ 	 	 	"trans": "Zablokowałeś ten przedmiot, odblokuj go do wymiany",
  	 	 	"eng": "You have locked this item, unlock it first to trade"
  	 	},
  	 	"selectAmount": {
@@ -3834,23 +3834,23 @@
  	 	},
  	 	"lockButton": {
  	 	 	"title": {
- 	 	 	 	"trans": "Zamek",
+ 	 	 	 	"trans": "Zablokuj",
  	 	 	 	"eng": "Lock"
  	 	 	}
  	 	},
  	 	"unlockButton": {
  	 	 	"title": {
- 	 	 	 	"trans": "Odblokować",
+ 	 	 	 	"trans": "Odblokuj",
  	 	 	 	"eng": "Unlock"
  	 	 	}
  	 	},
  	 	"error": {
  	 	 	"tradeNoLongerExist": {
- 	 	 	 	"trans": "Ta sesja handlowa już nie istniała",
+ 	 	 	 	"trans": "Ta sesja handlowa już wygasła",
  	 	 	 	"eng": "this trade session no longer existed"
  	 	 	},
  	 	 	"cantStartTradeNotIdle": {
- 	 	 	 	"trans": "Nie możesz rozpocząć handlu, gdy nie jesteś bezczynny",
+ 	 	 	 	"trans": "Nie możesz rozpocząć handlu, wykonując inną czynność",
  	 	 	 	"eng": "You can not start a trade when you are not idle"
  	 	 	},
  	 	 	"cantStartTradeLimited": {
@@ -3858,11 +3858,11 @@
  	 	 	 	"eng": "You can not start a trade now"
  	 	 	},
  	 	 	"targetPlayerBlockedYou": {
- 	 	 	 	"trans": "Nie możesz wysłać zaproszenia handlowego do tego gracza",
+ 	 	 	 	"trans": "Nie możesz wysłać oferty handlowej do tego gracza",
  	 	 	 	"eng": "You cannot send trade invite to this player"
  	 	 	},
  	 	 	"targetPlayerBlockedGifts": {
- 	 	 	 	"trans": "Target Player ma wyłączony prezent i handel",
+ 	 	 	 	"trans": "Wybrany gracz ma wyłączoną opcję otrzymywania przedmiotów i ofert handlowych",
  	 	 	 	"eng": "Target player has disabled gift and trade"
  	 	 	},
  	 	 	"targetPlayerLimited": {
@@ -3873,14 +3873,14 @@
  	 	 	 	"vars": [
  	 	 	 	 	"minutes"
  	 	 	 	],
- 	 	 	 	"trans": "Nie możesz zapraszać zbyt często, handel zaproszeniem jest ${minutes} minuty",
+ 	 	 	 	"trans": "Nie możesz składać ofert zbyt często, zrób to ponownie za ${minutes} minut",
  	 	 	 	"eng": "You cannot invite too frequently, trade invite cooldown is ${minutes} minutes"
  	 	 	},
  	 	 	"maxItemsPerPlayer": {
  	 	 	 	"vars": [
  	 	 	 	 	"maxItems"
  	 	 	 	],
- 	 	 	 	"trans": "Nie możesz dodać więcej niż ${maxItems} na gracz",
+ 	 	 	 	"trans": "Nie możesz dodać więcej niż ${maxItems} na jednego gracza",
  	 	 	 	"eng": "You cannot add more than ${maxItems} items per player"
  	 	 	},
  	 	 	"notEnoughItems": {
@@ -3903,21 +3903,21 @@
  	 	 	 	 	"itemName",
  	 	 	 	 	"playerName"
  	 	 	 	],
- 	 	 	 	"trans": "${playerName} nie ma wystarczającej ilości miejsca w swoim ekwipunku dla ${itemName}",
+ 	 	 	 	"trans": "${playerName} nie ma wystarczającej ilości miejsca w swoim ekwipunku na ${itemName}",
  	 	 	 	"eng": "${playerName} doesn't have enough space in their inventory for ${itemName} to complete the trade."
  	 	 	},
  	 	 	"youNotEnoughSpace": {
  	 	 	 	"vars": [
  	 	 	 	 	"itemName"
  	 	 	 	],
- 	 	 	 	"trans": "Nie masz wystarczającej ilości miejsca w swoim ekwipunku dla ${itemName}",
+ 	 	 	 	"trans": "Nie masz wystarczającej ilości miejsca w swoim ekwipunku na ${itemName}",
  	 	 	 	"eng": "You don't have enough space in your inventory for ${itemName} to complete the trade."
  	 	 	},
  	 	 	"youNotEnoughItem": {
  	 	 	 	"vars": [
  	 	 	 	 	"itemName"
  	 	 	 	],
- 	 	 	 	"trans": "Nie masz wystarczająco ${itemName}, aby ukończyć handel.",
+ 	 	 	 	"trans": "Nie masz wystarczającej ilości ${itemName}, aby ukończyć handel.",
  	 	 	 	"eng": "You don't have enough ${itemName} to complete the trade."
  	 	 	},
  	 	 	"otherPlayerNotEnoughItem": {
@@ -3925,7 +3925,7 @@
  	 	 	 	 	"itemName",
  	 	 	 	 	"playerName"
  	 	 	 	],
- 	 	 	 	"trans": "${playerName} nie ma wystarczająco ${itemName}, aby ukończyć handel.",
+ 	 	 	 	"trans": "${playerName} nie ma wystarczającej ilości ${itemName}, aby ukończyć handel.",
  	 	 	 	"eng": "${playerName} doesn't have enough ${itemName} to complete the trade."
  	 	 	},
  	 	 	"youNotEnoughMoney": {
@@ -3977,7 +3977,7 @@
  	},
  	"tutorial": {
  	 	"localCombatButton": {
- 	 	 	"trans": "Kliknij tutaj, aby skanować ulicę w poszukiwaniu wrogów",
+ 	 	 	"trans": "Kliknij tutaj, aby przeskanować okolicę w poszukiwaniu wrogów",
  	 	 	"eng": "Click here to scan for street enemies"
  	 	},
  	 	"localCombatTip": {
@@ -4196,7 +4196,7 @@
  	 	 	"eng": "Legendary"
  	 	},
  	 	"donation5": {
- 	 	 	"trans": "Cybernetyczny Ziemniak",
+ 	 	 	"trans": "Cybernetyczny Kartofel",
  	 	 	"eng": "Cybernetic Potato"
  	 	},
  	 	"donation6": {
@@ -4324,7 +4324,7 @@
  	 	 	 	 	"eng": "Gold chat frame (with animation)"
  	 	 	 	},
  	 	 	 	"4": {
- 	 	 	 	 	"trans": "Złoty oprawiony profil (z animacją)",
+ 	 	 	 	 	"trans": "Złoto oprawiony profil (z animacją)",
  	 	 	 	 	"eng": "Gold Framed Profile (with animation)"
  	 	 	 	},
  	 	 	 	"5": {
@@ -4364,7 +4364,7 @@
  	 	 	 	 	"eng": "Purple chat frame (with animation)"
  	 	 	 	},
  	 	 	 	"4": {
- 	 	 	 	 	"trans": "Fioletowy oprawiony profil (z animacją)",
+ 	 	 	 	 	"trans": "Purpurowo oprawiony profil (z animacją)",
  	 	 	 	 	"eng": "Purple Framed Profile (with animation)"
  	 	 	 	},
  	 	 	 	"5": {
@@ -4392,11 +4392,11 @@
  	 	"donation5": {
  	 	 	"benefits": {
  	 	 	 	"1": {
- 	 	 	 	 	"trans": "Cybernetyczny Ziemniak",
+ 	 	 	 	 	"trans": "Cybernetyczny Kartofel",
  	 	 	 	 	"eng": "Cybernetic Potato"
  	 	 	 	},
  	 	 	 	"2": {
- 	 	 	 	 	"trans": "Tytuł darowizny \"Cybernetyczny Ziemniak\"",
+ 	 	 	 	 	"trans": "Tytuł darowizny \"Cybernetyczny Kartofel\"",
  	 	 	 	 	"eng": "\"Cybernetic Potato\" donation title"
  	 	 	 	},
  	 	 	 	"3": {
@@ -4404,15 +4404,15 @@
  	 	 	 	 	"eng": "Unlock profile picture customization"
  	 	 	 	},
  	 	 	 	"4": {
- 	 	 	 	 	"trans": "Stań się Cybernetycznym Ziemniakiem",
+ 	 	 	 	 	"trans": "Stań się Cybernetycznym Kartoflem",
  	 	 	 	 	"eng": "Become a Cybernetic Potato"
  	 	 	 	},
  	 	 	 	"5": {
- 	 	 	 	 	"trans": "Ziemniaczana ramka czatu (z animacją)",
+ 	 	 	 	 	"trans": "Kartoflana ramka czatu (z animacją)",
  	 	 	 	 	"eng": "Potato chat frame (with animation)"
  	 	 	 	},
  	 	 	 	"6": {
- 	 	 	 	 	"trans": "Ziemniaczany oprawiony profil (z animacją)",
+ 	 	 	 	 	"trans": "Krotoflano owinięty profil (z animacją)",
  	 	 	 	 	"eng": "Potato Framed Profile (with animation)"
  	 	 	 	},
  	 	 	 	"7": {
@@ -4436,11 +4436,11 @@
  	 	 	 	 	"eng": "More coming in future update"
  	 	 	 	},
  	 	 	 	"12": {
- 	 	 	 	 	"trans": "Czy wspomniałem, że możesz być Cybernetycznym Ziemniakiem?",
+ 	 	 	 	 	"trans": "Czy wspomniałem, że możesz być Cybernetycznym Kartoflem?",
  	 	 	 	 	"eng": "Did I mention you could be a Cybernetic Potato?"
  	 	 	 	},
  	 	 	 	"13": {
- 	 	 	 	 	"trans": "Darmowy emblemat ziemniaczany",
+ 	 	 	 	 	"trans": "Darmowy emblemat Kartofla",
  	 	 	 	 	"eng": "Free Potato Emblem"
  	 	 	 	}
  	 	 	}
@@ -4456,11 +4456,11 @@
  	 	 	 	 	"eng": "Unlock profile picture customization"
  	 	 	 	},
  	 	 	 	"3": {
- 	 	 	 	 	"trans": "Ramka czatu Niebieski Neon (z animacją)",
+ 	 	 	 	 	"trans": "Ramka czatu w Niebieski Neon (z animacją)",
  	 	 	 	 	"eng": "Blue Neon chat frame (with animation)"
  	 	 	 	},
  	 	 	 	"4": {
- 	 	 	 	 	"trans": "Oprawienie profilu Niebieski Neon (z animacją)",
+ 	 	 	 	 	"trans": "Oprawienie profilu w Niebieski Neon (z animacją)",
  	 	 	 	 	"eng": "Blue Neon Framed Profile (with animation)"
  	 	 	 	},
  	 	 	 	"5": {
@@ -4496,11 +4496,11 @@
  	 	 	 	 	"eng": "Unlock profile picture customization"
  	 	 	 	},
  	 	 	 	"3": {
- 	 	 	 	 	"trans": "Fioletowa rama czatu neonowego (z animacją)",
+ 	 	 	 	 	"trans": "Ramka czatu w stylu Fioletowego Neonu (z animacją)",
  	 	 	 	 	"eng": "Purple Neon chat frame (with animation)"
  	 	 	 	},
  	 	 	 	"4": {
- 	 	 	 	 	"trans": "Rama Profilu Fioletowy Neon (z animacją)",
+ 	 	 	 	 	"trans": "Rama Profilu w stylu Fioletowy Neon (z animacją)",
  	 	 	 	 	"eng": "Purple Neon Framed Profile (with animation)"
  	 	 	 	},
  	 	 	 	"5": {
@@ -4536,11 +4536,11 @@
  	 	 	 	 	"eng": "Unlock profile picture customization"
  	 	 	 	},
  	 	 	 	"3": {
- 	 	 	 	 	"trans": "Rama chatu Pomarańczowy Neon (z animacją)",
+ 	 	 	 	 	"trans": "Rama chatu w Pomarańczowym Neonie (z animacją)",
  	 	 	 	 	"eng": "Orange Neon chat frame (with animation)"
  	 	 	 	},
  	 	 	 	"4": {
- 	 	 	 	 	"trans": "Rama Profilu Pomarańczowy Neon (z animacją)",
+ 	 	 	 	 	"trans": "Rama Profilu w stylu Pomarańczowego Neonu (z animacją)",
  	 	 	 	 	"eng": "Orange Neon Framed Profile (with animation)"
  	 	 	 	},
  	 	 	 	"5": {
@@ -4576,11 +4576,11 @@
  	 	 	 	 	"eng": "Unlock profile picture customization"
  	 	 	 	},
  	 	 	 	"3": {
- 	 	 	 	 	"trans": "Rama chatu Różowy Neon (z animacją)",
+ 	 	 	 	 	"trans": "Rama chatu w stylu Różowego Neonu (z animacją)",
  	 	 	 	 	"eng": "Pink Neon chat frame (with animation)"
  	 	 	 	},
  	 	 	 	"4": {
- 	 	 	 	 	"trans": "Różowy profil w ramce neonowej (z animacją)",
+ 	 	 	 	 	"trans": "Ramka profilu w stylu Różowego Neonu (z animacją)",
  	 	 	 	 	"eng": "Pink Neon Framed Profile (with animation)"
  	 	 	 	},
  	 	 	 	"5": {
@@ -4616,11 +4616,11 @@
  	 	 	 	 	"eng": "Unlock profile picture customization"
  	 	 	 	},
  	 	 	 	"3": {
- 	 	 	 	 	"trans": "Halloween czatu (z animacją)",
+ 	 	 	 	 	"trans": "Halloweenowa ramka czatu (z animacją)",
  	 	 	 	 	"eng": "Halloween chat frame (with animation)"
  	 	 	 	},
  	 	 	 	"4": {
- 	 	 	 	 	"trans": "Profil oprawki na Halloween (z animacją)",
+ 	 	 	 	 	"trans": "Oprawka profilu w stylu Halloween (z animacją)",
  	 	 	 	 	"eng": "Halloween Framed Profile (with animation)"
  	 	 	 	},
  	 	 	 	"5": {
@@ -4656,11 +4656,11 @@
  	 	 	 	 	"eng": "Unlock profile picture customization"
  	 	 	 	},
  	 	 	 	"3": {
- 	 	 	 	 	"trans": "Ramka chatu w Kotki (z animacją)",
+ 	 	 	 	 	"trans": "Ramka chatu w Kociaki (z animacją)",
  	 	 	 	 	"eng": "Kitty chat frame (with animation)"
  	 	 	 	},
  	 	 	 	"4": {
- 	 	 	 	 	"trans": "Profil Oprawiony w Kotki (z animacją)",
+ 	 	 	 	 	"trans": "Profil Oprawiony w Kociaki (z animacją)",
  	 	 	 	 	"eng": "Kitty Framed Profile (with animation)"
  	 	 	 	},
  	 	 	 	"5": {
@@ -4740,7 +4740,7 @@
  	 	 	 	 	"eng": "Winter chat frame (with animation)"
  	 	 	 	},
  	 	 	 	"4": {
- 	 	 	 	 	"trans": "Profil w ramce zimowej (z animacją)",
+ 	 	 	 	 	"trans": "Profil w zimowej ramce (z animacją)",
  	 	 	 	 	"eng": "Winter Framed Profile (with animation)"
  	 	 	 	},
  	 	 	 	"5": {
@@ -4776,11 +4776,11 @@
  	 	 	 	 	"eng": "Unlock profile picture customization"
  	 	 	 	},
  	 	 	 	"3": {
- 	 	 	 	 	"trans": "Ramka czatu noworocznego księżycowego (z animacją)",
+ 	 	 	 	 	"trans": "Ramka czatu w stylu Nowego Roku Lunarnego (z animacją)",
  	 	 	 	 	"eng": "Lunar new year chat frame (with animation)"
  	 	 	 	},
  	 	 	 	"4": {
- 	 	 	 	 	"trans": "Profil w ramce noworocznej księżycowej (z animacją)",
+ 	 	 	 	 	"trans": "Ramka profilu w stylu Nowego Roku Lunarnego (z animacją)",
  	 	 	 	 	"eng": "Lunar new year Framed Profile (with animation)"
  	 	 	 	},
  	 	 	 	"5": {
@@ -4816,11 +4816,11 @@
  	 	 	 	 	"eng": "Unlock profile picture customization"
  	 	 	 	},
  	 	 	 	"3": {
- 	 	 	 	 	"trans": "Rama chatu Zielony Neon (z animacją)",
+ 	 	 	 	 	"trans": "Ramka chatu w stylu Zielonego Neonu (z animacją)",
  	 	 	 	 	"eng": "Neon green chat frame (with animation)"
  	 	 	 	},
  	 	 	 	"4": {
- 	 	 	 	 	"trans": "Rama profilu Zielony Neon (z animacją)",
+ 	 	 	 	 	"trans": "Ramka profilu w stylu Zielonego Neonu (z animacją)",
  	 	 	 	 	"eng": "Neon green Framed Profile (with animation)"
  	 	 	 	},
  	 	 	 	"5": {
@@ -4856,11 +4856,11 @@
  	 	 	 	 	"eng": "Unlock profile picture customization"
  	 	 	 	},
  	 	 	 	"3": {
- 	 	 	 	 	"trans": "Rama czatu synthwave (z animacją)",
+ 	 	 	 	 	"trans": "Ramka czatu w stylu SynthWave (z animacją)",
  	 	 	 	 	"eng": "Synthwave chat frame (with animation)"
  	 	 	 	},
  	 	 	 	"4": {
- 	 	 	 	 	"trans": "Profil w ramce synthwave (z animacją)",
+ 	 	 	 	 	"trans": "Ramka profilu w stylu SynthWave (z animacją)",
  	 	 	 	 	"eng": "Synthwave Framed Profile (with animation)"
  	 	 	 	},
  	 	 	 	"5": {
@@ -4936,7 +4936,7 @@
  	 	 	 	 	"eng": "Unlock profile picture customization"
  	 	 	 	},
  	 	 	 	"3": {
- 	 	 	 	 	"trans": "Brązowa rama (z animacją)",
+ 	 	 	 	 	"trans": "Brązowa ramka (z animacją)",
  	 	 	 	 	"eng": "Brown frame (with animation)"
  	 	 	 	},
  	 	 	 	"4": {
@@ -5060,7 +5060,7 @@
  	 	 	 	 	"eng": "Red frame (with animation)"
  	 	 	 	},
  	 	 	 	"4": {
- 	 	 	 	 	"trans": "Profil czerwony (z animacją)",
+ 	 	 	 	 	"trans": "Czerwony profil (z animacją)",
  	 	 	 	 	"eng": "Red Profile (with animation)"
  	 	 	 	},
  	 	 	 	"5": {
@@ -5163,7 +5163,7 @@
  	"item": {
  	 	"unknownEquipment": {
  	 	 	"name": {
- 	 	 	 	"trans": "Nieznany sprzęt",
+ 	 	 	 	"trans": "Nieznany Przedmiot",
  	 	 	 	"eng": "Unknown Equipment"
  	 	 	}
  	 	},
@@ -5233,7 +5233,7 @@
  	 	 	 	"eng": "Tech Scrap"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "Złom technologiczny z demontowanego sprzętu. Można go poddać inżynierii wstecznej, aby zdobyć doświadczenie w drukowaniu. \r\n        Inżynierię wsteczną można przeprowadzić w Centrum Pracy.",
+ 	 	 	 	"trans": "Części pozostałe z zdemontowanego sprzętu. Można go poddać inżynierii wstecznej, aby zdobyć doświadczenie w drukowaniu. \r\n        Inżynierię wsteczną można przeprowadzić w Centrum Pracy.",
  	 	 	 	"eng": "Technology scrap from disassembled equipment, this can be reverse engineered to gain printing xp. \r\n        You can perform reverse engineering in the Job Hub."
  	 	 	}
  	 	},
@@ -5287,11 +5287,11 @@
  	 	},
  	 	"healing1": {
  	 	 	"name": {
- 	 	 	 	"trans": "Po Bólu",
+ 	 	 	 	"trans": "APAP",
  	 	 	 	"eng": "Pain Away"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "Czy boli Cię głowa? Użyj Po Bólu™, aby złagodzić swój ból!",
+ 	 	 	 	"trans": "Ból głowy nie daje Ci skoncentrować się na walce? Weź APAP™! Pamiętaj, że każdy lek niewłaściwie stosowany zagraża Twojemu życiu lub zdrowiu",
  	 	 	 	"eng": "Do you have headache? Use Pain Away™ to relieve your pain!"
  	 	 	}
  	 	},
@@ -5311,7 +5311,7 @@
  	 	 	 	"eng": "Degraded Nano Medic Bot"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "Stary nano bot medyczny. Wstrzyknij go, aby wyleczyć każdą(*obowiązują warunki) kontuzję!",
+ 	 	 	 	"trans": "Stary nano bot medyczny. Wstrzyknij go, aby wyleczyć wszelkie (no prawie) obrażenia!",
  	 	 	 	"eng": "Old nano medic bot is used to cure any (*conditions apply) injury!"
  	 	 	}
  	 	},
@@ -5321,7 +5321,7 @@
  	 	 	 	"eng": "Nano Medic Bot"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "Wstrzyknij go, aby wyleczyć każdą (*obowiązują warunki) kontuzję!",
+ 	 	 	 	"trans": "Najczęściej wykorzystywany w Centrach Medycznych, natomiast jakimś trafem znalazł się w Twoich rękach. Wstrzyknij go, aby wyleczyć wszelkie ( no prawie ) obrażenia!",
  	 	 	 	"eng": "Inject it to cure any(*conditions apply) injury!"
  	 	 	}
  	 	},
@@ -5341,7 +5341,7 @@
  	 	 	 	"eng": "Advanced Nano Medic Bot"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "Nanomaszyny do wstrzyknięcia, które są standardowym wyposażeniem wojska. Zdolne do łatania ran podczas walki.",
+ 	 	 	 	"trans": "Zaawansowane nanomaszyny do wstrzyknięcia, które są standardowym wyposażeniem wojska. Zdolne do łatania poważniejszych ran podczas walki.",
  	 	 	 	"eng": "Injectable nano machines that are standard issue for military use. They're capable of patching injuries while in combat."
  	 	 	}
  	 	},
@@ -5351,7 +5351,7 @@
  	 	 	 	"eng": "High Quality Nano Medic Bot"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "Nanomaszyny do wstrzyknięcia, które są standardowym wyposażeniem wojska. Zdolne do łatania ran podczas walki.",
+ 	 	 	 	"trans": "Wysokiej jakości nanomaszyny do wstrzyknięcia, które są standardowym wyposażeniem wojska. Zdolne do łatania poważniejszych ran podczas walki.",
  	 	 	 	"eng": "Injectable nano machines that are standard issue for military use. They're capable of patching injuries while in combat."
  	 	 	}
  	 	},
@@ -5361,7 +5361,7 @@
  	 	 	 	"eng": "Rare Nano Medic Bot"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "Nanomaszyny do wstrzyknięcia, które są standardowym wyposażeniem wojska. Zdolne do łatania ran podczas walki.",
+ 	 	 	 	"trans": "Rzadko spotykane nanomaszyny do wstrzyknięcia, które są standardowym wyposażeniem wojska. Zdolne do łatania krytycznych ran podczas walki.",
  	 	 	 	"eng": "Injectable nano machines that are standard issue for military use. They're capable of patching injuries while in combat."
  	 	 	}
  	 	},
@@ -5371,7 +5371,7 @@
  	 	 	 	"eng": "Legendary Nano Medic Bot"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "Wstrzykiwalne nanomaszyny przeznaczone do zaawansowanego użytku wojskowego. Zdolne do łatania obrażeń w sytuacjach bojowych",
+ 	 	 	 	"trans": "Legendarne nanomaszyny medyczne, przeznaczone do zaawansowanego użytku wojskowego. Zdolne do łatania śmiertelnych obrażeń w sytuacjach bojowych",
  	 	 	 	"eng": "injectable nano machines that is for advance military use, capable of patching injury in combat situation"
  	 	 	}
  	 	},
@@ -5381,7 +5381,7 @@
  	 	 	 	"eng": "Epic Nano Medic Bot"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "Wstrzykiwalne nanomaszyny przeznaczone do zaawansowanego użytku wojskowego. Zdolny do łatania obrażeń w sytuacjach bojowych",
+ 	 	 	 	"trans": "To jest Epickie! Wstrzykiwalne nanomaszyny przeznaczone do zaawansowanego użytku wojskowego. Zdolny do łatania śmiertelnych obrażeń w sytuacjach bojowych",
  	 	 	 	"eng": "injectable nano machines that is for advance military use, capable of patching injury in combat situation"
  	 	 	}
  	 	},
@@ -5391,17 +5391,17 @@
  	 	 	 	"eng": "Prestige Nano Medic Bot"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "Wstrzykiwalne nanomaszyny przeznaczone do zaawansowanego użytku wojskowego, zdolne do załatania obrażeń w sytuacji bojowej",
+ 	 	 	 	"trans": "Produkt przeznaczony dla głów państw, szefów korporacji i... Ciebie? Wstrzykiwalne nanomaszyny przeznaczone do zaawansowanego użytku wojskowego, zdolne do załatania śmiertelnych obrażeń w sytuacji bojowej",
  	 	 	 	"eng": "injectable nano machines that is for advance military use, capable of patching injury in combat situation"
  	 	 	}
  	 	},
  	 	"healingArea1": {
  	 	 	"name": {
- 	 	 	 	"trans": "Sprej Po Bólu",
+ 	 	 	 	"trans": "Sprej APAP",
  	 	 	 	"eng": "Pain Away Spray"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "Czy Ty i Twoi przyjaciele cierpicie na bóle głowy? Użyj Sprej Po Bólu™, aby złagodzić wasz ból!",
+ 	 	 	 	"trans": "Czy Ty i Twoi przyjaciele cierpicie na bóle głowy? Użyj Sprej APAP™, aby złagodzić wasz ból!",
  	 	 	 	"eng": "Do you and your friends both have headaches? Use Pain Away Spray™ to relief your pain!"
  	 	 	}
  	 	},
@@ -5421,7 +5421,7 @@
  	 	 	 	"eng": "Degraded nano medic drone"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "Stary nano dron medyczny potrafiący wysyłać tysiące nano-maszyn, aby leczyły pobliskich graczy.",
+ 	 	 	 	"trans": "Stary nano dron medyczny potrafiący wysyłać setki nano-maszyn, aby leczyły pobliskich graczy.",
  	 	 	 	"eng": "Old nano drone, capable of dispatching thousands of nano machines to heal nearby players"
  	 	 	}
  	 	},
@@ -5497,21 +5497,21 @@
  	 	},
  	 	"healingArea11": {
  	 	 	"name": {
- 	 	 	 	"trans": "Dron Prestige Nano Medic",
+ 	 	 	 	"trans": "Prestiżowy Nano Dron Medyczny",
  	 	 	 	"eng": "Prestige Nano medic drone"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "zdolne do wysłania tysięcy zaawansowanych nano maszyn do leczenia pobliskich graczy",
+ 	 	 	 	"trans": "Zdolne do wysłania tysięcy zaawansowanych nano maszyn w celu leczenia pobliskich graczy",
  	 	 	 	"eng": "capable of dispatching thousands of advanced nano machines to heal nearby players"
  	 	 	}
  	 	},
  	 	"medicalTechParts": {
  	 	 	"name": {
- 	 	 	 	"trans": "Skrawki Technologii Medycznej",
+ 	 	 	 	"trans": "Części Technologii Medycznej",
  	 	 	 	"eng": "Medical Tech Parts"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "Kawałki zużytej techniki medycznej. Mogą być użyte do produkcji przedmiotów leczniczych.",
+ 	 	 	 	"trans": "Części techniczne, które niegdyś były przedmiotami medycznymi. Ponownie mogą być użyte do produkcji przedmiotów leczniczych.",
  	 	 	 	"eng": "Bits and pieces of used medical tech. This can be used to craft healing items if you understand how"
  	 	 	}
  	 	},
@@ -5521,7 +5521,7 @@
  	 	 	 	"eng": "Medical Tech Cluster"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "Klaster części technicznych medycznych. W tym kompaktowym od niego łatwiej jest przechowywać i transportować",
+ 	 	 	 	"trans": "Klaster yechnicznych części medycznych. Jest kompaktowy więc łatwiej jest go przechowywać i transportować",
  	 	 	 	"eng": "A cluster of medical tech parts. in this compact from it's easier to store and transport"
  	 	 	}
  	 	},
@@ -5531,17 +5531,17 @@
  	 	 	 	"eng": "Cassette Tape"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "Pop w tej kasecie i pozwól, aby słodkie dźwięki retro synthwave przetransportuje się do neon-nasączonego świata nieskończonej możliwości. Dzięki temu groovy Boost będziesz gotowy podjąć wszelkie wyzwanie, jakie Cyberpunk Future ma do czynienia!",
+ 	 	 	 	"trans": "Wrzuć na bit tą kasetę i pozwól, aby dźwięki retro synthwave przeniosły Cię do neonowego świata nieskończonych możliwości. Dzięki temu będziesz gotowy podjąć wszelkie wyzwania, jakie Cyberpunkowy świat przyszłości ma do zaoferowania!",
  	 	 	 	"eng": "Pop in this cassette tape and let the sweet sounds of retro synthwave transport you to a neon-soaked world of infinite possibility. With this groovy boost, you'll be ready to take on any challenge the cyberpunk future has in store!"
  	 	 	}
  	 	},
  	 	"expMemory": {
  	 	 	"name": {
- 	 	 	 	"trans": "Pamięć Doświadczenia",
+ 	 	 	 	"trans": "Bank Pamięci i Doświadczenia",
  	 	 	 	"eng": "Experience Memory"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "Bank pamięci zawierający czyjeś wspomnienia. Jeśli go użyjesz, zdobędziesz dzięki niemu doświadczenie.",
+ 	 	 	 	"trans": "Bank pamięci zawierający czyjeś wspomnienia. Jeśli go użyjesz, zdobędziesz dzięki niemu doświadczenie. Również te bolesne...",
  	 	 	 	"eng": "Memory bank contains someone's memory. If used you may gain experience from this"
  	 	 	}
  	 	},
@@ -5551,7 +5551,7 @@
  	 	 	 	"eng": "Hash Processor"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "Może być używany jako dedykowany sprzęt do kopania Bitcoinów. \r\n        Jednak ze względu na podkręcanie, procesor łatwo się spali.\r\n        Możesz go użyć do wydobycia Bitcoin w [Centrum Pracy]",
+ 	 	 	 	"trans": "Może być używany jako dedykowany sprzęt do kopania Bitcoinów. \r\n        Jednak ze względu na podkręcanie, procesor może ulec spaleniu.\r\n        Możesz wykorzystać go do wydobycia Bitcoinów w [Centrum Pracy]",
  	 	 	 	"eng": "Can be used as a dedicated hardware for BitCoin mining, \r\n        however due to overclocking, the processor is easily burntout,\r\n        You may use this to mine BitCoin at [JOB HUB]"
  	 	 	}
  	 	},
@@ -5561,7 +5561,7 @@
  	 	 	 	"eng": "Synaptic Acceleration Transmitter"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "Rozsyła exploity do wszystkich cybernetycznie połączonych użytkowników, podkręcając ich procesory synaptyczne, co pozwala na nadludzkie zdolności umysłowe przez krótki okres czasu.\r\n        \r\n        Kiedy jest użyty, daje Globalne Wzmocnienie wszystkim graczom online, pozwalając im na wykonywanie zadań AFK z prędkością +5% przez 10 minut. (stackable)",
+ 	 	 	 	"trans": "Rozsyła exploity do wszystkich cybernetycznie połączonych użytkowników, podkręcając ich procesory synaptyczne, co pozwala na nadludzkie zdolności umysłowe przez krótki okres czasu.\r\n        \r\n        Kiedy jest użyty, daje Globalne Wzmocnienie wszystkim graczom online, pozwalając im na wykonywanie zadań AFK z prędkością +5% przez 10 minut. (efekt się stackuje)",
  	 	 	 	"eng": "Broadcasts exploits to all cybernetically connected users, overclocking their synaptic processors thus allowing super-human mental capacity for short period of time.\r\n        \r\n        When used, gives Global Buff to all players online, allowing them to complete AFK tasks in +5% speed for 10 minutes (stackable)"
  	 	 	}
  	 	},
@@ -5571,7 +5571,7 @@
  	 	 	 	"eng": "Rare Synaptic Acceleration Transmitter"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "Rozsyła exploity do wszystkich cybernetycznie połączonych użytkowników, podkręcając ich procesory synaptyczne, co pozwala na nadludzkie zdolności umysłowe przez krótki okres czasu.\r\n        \r\n        Kiedy jest użyty, daje Globalne Wzmocnienie wszystkim graczom online, pozwalając im na wykonywanie zadań AFK z prędkością +40% przez 20 minut. (stackable x2)",
+ 	 	 	 	"trans": "Rozsyła exploity do wszystkich cybernetycznie połączonych użytkowników, podkręcając ich procesory synaptyczne, co pozwala na nadludzkie zdolności umysłowe przez krótki okres czasu.\r\n        \r\n        Kiedy jest użyty, daje Globalne Wzmocnienie wszystkim graczom online, pozwalając im na wykonywanie zadań AFK z prędkością +40% przez 20 minut. (efekt się stackuje x2)",
  	 	 	 	"eng": "Broadcasts exploits to all cybernetically connected users, overclocking their synaptic processors thus allowing super-human mental capacity for short period of time.\r\n        \r\n        When used, gives Global Buff to all players online, allowing them to complete AFK tasks in +40% speed for 20 minutes (stackable)"
  	 	 	}
  	 	},
@@ -5594,7 +5594,7 @@
  	 	 	 	"vars": [
  	 	 	 	 	"currencyName"
  	 	 	 	],
- 	 	 	 	"trans": "Rozsyła exploity do wszystkich cybernetycznie połączonych użytkowników, zwiększając tymczasowo ich algorytm transakcyjny, umożliwiając użytkownikowi otrzymanie premii  ${currencyName}.\r\n\r\n        Po użyciu, daje Globalne Wzmocnienie dla wszystkich graczy online, zwiększając ilość zdobytych Bitcoinów o 40% na 20 minut. (łączy się)\r\n        ",
+ 	 	 	 	"trans": "Rozsyła exploity do wszystkich cybernetycznie połączonych użytkowników, zwiększając tymczasowo ich algorytm transakcyjny, umożliwiając użytkownikowi otrzymanie premii  ${currencyName}.\r\n\r\n        Po użyciu, daje Globalne Wzmocnienie dla wszystkich graczy online, zwiększając ilość zdobytych Bitcoinów o 40% na 20 minut. (efekt się stackuje)\r\n        ",
  	 	 	 	"eng": "Broadcasts exploits to all cybernetically connected users, argument their transaction algorithm temporary, allowing user to receive bonus  ${currencyName}.\r\n\r\n        When used, gives Global Buff to all players online, increase BitCoin gained by 40% for 20 minutes (stackable)\r\n        "
  	 	 	}
  	 	},
@@ -5604,7 +5604,7 @@
  	 	 	 	"eng": "locked container"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "Wzmocniony pojemnik z biometrycznym zamkiem szyfrowym. Wygląda na to, że w środku znajdują się ważne przedmioty.\r\n        Na szczęście mikrokomputer pokładowy działa na przestarzałym oprogramowaniu, co umożliwia jego wykorzystanie. Przejdź do [Terminala], aby odblokować ten pojemnik.",
+ 	 	 	 	"trans": "Wzmocniony pojemnik z biometrycznym zamkiem szyfrowym. Wygląda na to, że w środku znajdują się ważne przedmioty.\r\n        Na szczęście jego mikrokomputer działa na przestarzałym oprogramowaniu, co umożliwia przełamanie jego zabezpieczeń. Przejdź do [Terminala], aby odblokować ten pojemnik.",
  	 	 	 	"eng": "A reinforced container with biometric encryption lock, it seems to contain important items inside.\r\n        Luckily the on board micro computer is running on out-dated firmware, where an exploit is possible, go to [Terminal] to unlock this container"
  	 	 	}
  	 	},
@@ -5614,7 +5614,7 @@
  	 	 	 	"eng": "locked rare container"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "Wzmocniony pojemnik z biometrycznym zamkiem szyfrowym. Wygląda na to, że w środku znajdują się ważne przedmioty.\r\n        Na szczęście mikrokomputer pokładowy działa na przestarzałym oprogramowaniu, co umożliwia jego wykorzystanie. Przejdź do [Terminala], aby odblokować ten pojemnik",
+ 	 	 	 	"trans": "Wzmocniony pojemnik z biometrycznym zamkiem szyfrowym. Wygląda na to, że w środku znajdują się ważne przedmioty.\r\n        Na szczęście mikrokomputer pokładowy działa na przestarzałym oprogramowaniu, co umożliwia przełamanie jego zabezpieczeń. Przejdź do [Terminala], aby odblokować ten pojemnik",
  	 	 	 	"eng": "A reinforced container with biometric encryption lock, it seems to contain important items inside.\r\n        Luckily the on board micro computer is running on out-dated firmware, where an exploit is possible, go to [Terminal] to unlock this container"
  	 	 	}
  	 	},
@@ -5624,7 +5624,7 @@
  	 	 	 	"eng": "locked legendary container"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "Wzmocniony pojemnik z biometrycznym zamkiem szyfrowym. Wygląda na to, że w środku znajdują się ważne przedmioty.\r\n        Na szczęście mikrokomputer pokładowy działa na przestarzałym oprogramowaniu, co umożliwia jego wykorzystanie. Przejdź do [Terminala], aby odblokować ten pojemnik",
+ 	 	 	 	"trans": "Wzmocniony pojemnik z biometrycznym zamkiem szyfrowym. Wygląda na to, że w środku znajdują się ważne przedmioty.\r\n        Na szczęście mikrokomputer pokładowy działa na przestarzałym oprogramowaniu, co umożliwia przełamanie jego zabezpieczeń. Przejdź do [Terminala], aby odblokować ten pojemnik",
  	 	 	 	"eng": "A reinforced container with biometric encryption lock, it seems to contain important items inside.\r\n        Luckily the on board micro computer is running on out-dated firmware, where an exploit is possible, go to [Terminal] to unlock this container"
  	 	 	}
  	 	},
@@ -5644,7 +5644,7 @@
  	 	 	 	"eng": "Supply Crate [Gang]"
  	 	 	},
  	 	 	"descriptionv2": {
- 	 	 	 	"trans": "Zawiera różne elementy i zasoby, aby gang mógł pozostać funkcjonalny. \r\n         Może być używane w centrali gangu",
+ 	 	 	 	"trans": "Zawiera różne elementy i zasoby, aby gang mógł pozostać funkcjonalny. \r\n         Może być używane w Centrali Gangu",
  	 	 	 	"eng": "Contains misc items and resources for a gang to stay functional.\r\n        Can be used in your gang headquarters"
  	 	 	}
  	 	},
